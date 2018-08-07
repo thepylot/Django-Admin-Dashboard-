@@ -8,7 +8,7 @@ class Attend(models.Model):
     ('tetil', 'TETIL'),
     ('bayram','BAYRAM'),
     
-)
+    )
     leave_type = models.CharField(max_length=6, choices=LEAVE_CHOICES, default='seçilməyib',verbose_name = 'Icazə Tipi')
     leave_start = models.DateTimeField(verbose_name = 'Baslangic Tarixi')
     leave_end = models.DateTimeField(verbose_name = 'Bitme Tarixi')

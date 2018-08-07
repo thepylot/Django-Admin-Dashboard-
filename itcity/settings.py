@@ -107,3 +107,10 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+EMAIL_HOST_USER = 'charliescene512@gmail.com'
+EMAIL_HOST_PASSWORD = 'charliehu512'
+EMAIL_PORT = 587

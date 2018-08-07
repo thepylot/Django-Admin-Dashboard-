@@ -77,52 +77,16 @@
                       <form method = "POST" class = "icazeform">
                         {% csrf_token %}
                           <div class="form-row icazerow1">
-                            <div class="col-md-15">
-                                <label for="id_leave_type">Icazə Tipi:</label> <select class = "form-control selectpart" id="id_leave_type" name="leave_type">
-                                  <option selected>Secilmeyib</option>
-                                    <option value="xeste">XESTE</option>
-                                    <option value="tetil">TETIL</option>
-                                    <option value="bayram">BAYRAM</option>
-                                    </select>
+                              {{form|crispy}}
+                           
                             </div>
                             
-                            <div class="col-md-15">
-                                <label for="id_leave_start_0">Baslangic Tarixi</label>
-                                <input class = "form-control datetimepart" id="id_leave_start_00" name="leave_start_0" type="text" placeholder="Yeni Tarix Sec">
-                                
-                            </div>
-                            <div class="col-md-15">
-                                <label for="id_leave_start_0">Baslangic Saati</label>
-                                <input class = "form-control datetimepart" id="id_leave_start_01" name="leave_start_1" type="text" placeholder="Yeni Saat Sec">
-                            </div>
-                            <div class="col-md-15">
-                                <label for="id_leave_end_0">Bitme Tarixi</label>
-                                <input class = "form-control datetimepart" id="id_leave_end_0" name="leave_end_0" type="text" placeholder="Yeni Tarix Sec">
-                                
-                            </div>
-                            <div class="col-md-15">
-                                <label for="id_leave_end_0">Bitme Saati</label>
-                                <input class = "form-control datetimepart" id="id_leave_end_1" name="leave_end_1" type="text" placeholder="Yeni Saat Sec">
-                              </div>
-                            
-                          </div>
-                          <div class="form-row icazerow2">
-                            <div class="col-md-6">
-                              <label for="id_leave_reason">Movzu:</label> 
-                              <input class = "form-control reasonpart" id="id_leave_reason" maxlength="300" name="leave_reason" type="text" placeholder="Movzu">
-                            </div>
-                            </div>
-                            
-                          </div>
-                          <div class="col-md-6">
-                          <button class="btn btn-primary icazealbutton" type="submit">Icaze al</button>
-                          </div>
-                          
-                        </form>
+                        
+                           
                   
                     
                    
-                  </section>
+                  
                               
             
   

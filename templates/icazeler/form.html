@@ -34,32 +34,32 @@
 
       <!--Menu-->
       <div id="menu">
-        <h4 class = "panel-basliq">&#1254;N PANEL</h4>
+        <h4 class = "panel-basliq">ÖN PANEL</h4>
         
           <a href="" title="Idare Paneli"><i class="fa fa-window-maximize"></i>
             
 
             <span> 
-          Idar&#1241; Paneli</span></a>
-          <a href="/icazeler/index" title="Icazeler"><i class="fa fa-calendar-check-o"></i> <span>Icaz&#1241;l&#1241;r</span></a>
-          <h4 class = "panel-basliq">IDAR&#1240; ETM&#1240;</h4>
+                İdarə paneli</span></a>
+          <a href="/icazeler/index" title="Icazeler"><i class="fa fa-calendar-check-o"></i> <span>İcazələr</span></a>
+          <h4 class = "panel-basliq">İDARƏ ETMƏ</h4>
           <a href="" title="Mesajlar"><i class="fa fa-envelope-o"></i> <span>Mesajlar</span></a>
           <a href="" title="Bildirisler" name="media-sub"><i class="fa fa-bell-o"></i>
             <span>  
-          Bildiri&#537;l&#1241;r</span></a> 
+                Bildirişlər</span></a> 
           
           <a href="" title="Statistika"><i class="fa fa-bar-chart"></i>
             <span>  
           Statistika</span></a>
           <a href="" title="Tenzimlemeler"><i class="fa fa-gear"></i>
             <span>  
-          T&#1241;nziml&#1241;m&#1241;l&#1241;r</span></a>
+                Tənzimləmələr</span></a>
 
-          <h4 class = "panel-basliq">TEXNIKI D&#1240;ST&#1240;K</h4>
+          <h4 class = "panel-basliq">TEXNİKİ DƏSTƏK</h4>
           <!-- Other Contents Sub Menu -->
           <a href="" title="Bizimle Elaqe"><i class="fa fa-life-bouy"></i>
             <span>  
-          Biziml&#1241; &#1240;laq&#1241;</span></a>
+                Bizimlə əlaqə</span></a>
       </div>
       <input type="checkbox" hidden="hidden" id="username">
       <label class="switch" for="username"></label>
@@ -70,7 +70,7 @@
 
              
             <div id="content-wrapper">
-                <h2 class="icaze-al-heading">Icaze al</h2>
+                <h2 class="icaze-al-heading">İcazə al</h2>
                 
                 <section class="panel icazeform">
                   <div class = "row">
@@ -78,8 +78,8 @@
                         {% csrf_token %}
                           <div class="form-row icazerow1">
                             <div class="col-md-15">
-                                <label for="id_leave_type">Icazə Tipi:</label> <select class = "form-control selectpart" id="id_leave_type" name="leave_type">
-                                  <option selected>Secilmeyib</option>
+                                <label for="id_leave_type">İcazə tipi</label> <select class = "form-control selectpart" id="id_leave_type" name="leave_type">
+                                  <option selected>Seçilməyib</option>
                                     <option value="xeste">XESTE</option>
                                     <option value="tetil">TETIL</option>
                                     <option value="bayram">BAYRAM</option>
@@ -88,39 +88,39 @@
                             
                             <div class="col-md-15">
                                 
-                                <label for="id_leave_start_0">Baslangic Tarixi</label>
-                                <input class = "form-control datetimepart" id="id_leave_start_00" name="leave_start_0"  onfocus="(this.type='date')" placeholder="Tarix Sec">
+                                <label for="id_leave_start_0">Başlanğıc tarixi</label>
+                                <input class = "form-control datetimepart" id="id_leave_start_00" name="leave_start_0"  onfocus="(this.type='date')" placeholder="Tarix seç">
                                 
                             </div>
                             <div class="col-md-15">
-                                <label for="id_leave_start_0">Baslangic Saati</label>
-                                <input class = "form-control datetimepart" id="id_leave_start_01" name="leave_start_1"  onfocus="(this.type='time')" placeholder="Saat Sec">
+                                <label for="id_leave_start_0">Başlanğıc saatı</label>
+                                <input class = "form-control datetimepart" id="id_leave_start_01" name="leave_start_1"  onfocus="(this.type='time')" placeholder="Saat seç">
                             </div>
                             <div class="col-md-15">
-                                <label for="id_leave_end_0">Bitme Tarixi</label>
-                                <input class = "form-control datetimepart" id="id_leave_end_0" name="leave_end_0" onfocus="(this.type='date')" placeholder="Tarix Sec">
+                                <label for="id_leave_end_0">Bitmə tarixi</label>
+                                <input class = "form-control datetimepart" id="id_leave_end_0" name="leave_end_0" onfocus="(this.type='date')" placeholder="Tarix seç">
                                 
                             </div>
                             <div class="col-md-15">
-                                <label for="id_leave_end_0">Bitme Saati</label>
-                                <input class = "form-control datetimepart" id="id_leave_end_1" name="leave_end_1"  onfocus="(this.type='time')" placeholder="Saat Sec">
+                                <label for="id_leave_end_0">Bitmə saatı</label>
+                                <input class = "form-control datetimepart" id="id_leave_end_1" name="leave_end_1"  onfocus="(this.type='time')" placeholder="Saat seç">
                                 
                               </div>
                             
                           </div>
                           <div class="form-row icazerow2">
                             <div class="col-md-6">
-                              <label for="id_leave_reason">Movzu:</label> 
+                              <label for="id_leave_reason">Mövzu</label> 
                               <input class = "form-control reasonpart" id="id_leave_reason" maxlength="300" name="leave_reason" type="text" placeholder="İcazə səbəbinizi qeyd edin">
                             </div>
                             </div>
                             
                           </div>
                           <div class="col-md-6">
-                          <button class="btn btn-primary icazealbutton" type="submit">Icaze al</button>
+                          <button class="btn btn-primary icazealbutton" type="submit">İcazə al</button>
                           </div>
                           
-                        </form>
+                       </form>
                   
                     
                    <!-- filter icazeler -->
@@ -161,9 +161,9 @@
                                 <span class="checkmark"></span>
                               </label>
                             </th>
-                            <th scope="col">Icaze Tipi</th>
-                            <th scope="col">Baslangic Tarixi ve Saati</th>
-                            <th scope="col">Bitme Tarixi ve Saati</th>
+                            <th scope="col">İcaze Tipi</th>
+                            <th scope="col">Başlanğıc tarixi ve Saatı</th>
+                            <th scope="col">Bitmə tarixi ve Saatı</th>
                             <th scope = "col">Status</th>
                             <th></th>
                        
@@ -185,8 +185,9 @@
                             <td><div class="dropdown">
                                 <button class="dropbtn"><i class="fa">&#xf141;</i></button>
                                 <div class="dropdown-content">
-                                  <a href = "http://127.0.0.1:8000/icazeler/{{ icaze.id }}/update">Redakte Et</a>
-                                  <a href="/icazeler/{{ icaze.id }}/delete">Sil</a>
+                                  <a href = "http://127.0.0.1:8000/icazeler/{{ icaze.id }}/update"><i class="fa fa-pencil icon"></i> Redakte Et</a>
+                                  <a href="/icazeler/{{ icaze.id }}/delete"> <i class = "	fa fa-trash icon"></i> Sil</a>
+                                  <a href="/icazeler/{{ icaze.id }}/detail"> Detallar</a>
                                   
                                 </div>
                               </div></td>

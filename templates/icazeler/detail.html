@@ -1,25 +1,202 @@
-{% extends 'base.html'%}
-{% block body %}
 
 
-        {% if messages %}
-        <ul class="messages">
-            {% for message in messages %}
-            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-            {% endfor %}
-        </ul>
-        {% endif %}
+
+{% load static %}
+{% load staticfiles %}
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ITCITY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css"> 
+   
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/static/css/design.css">
+    <link rel="stylesheet" href="/static/css/icazedesign.css">
+    <link rel="stylesheet" href="/static/css/icazedesign2.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+  
+
+details {
+  width: 75%;
+  min-height: 5px;
+  max-width: 700px;
+  padding: 45px 70px 45px 45px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 22px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 15px;
+  box-sizing: border-box;
+  transition: all .3s;
+}
+
+details + details {
+  margin-top: 20px;
+}
+
+details[open] {
+  min-height: 50px;
+  background-color: #f6f7f8;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+}
+
+details p {
+  color: #96999d;
+  font-weight: 300;
+}
+
+summary {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* removed outline as for codepen only
+  don't remove focus on elements
+  it's bad accessibility
+  don't be _that_ guy
+*/
+summary:focus {
+  outline: none;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary::after {
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: rebeccapurple;
+  font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-ligatures: normal;
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  content: "\f078";
+  transform: translateY(-50%);
+  transition: .3s ease;
+}
+
+details[open] summary::after {
+  content: "\f057";
+  font-size: 30px;
+  top: 0;
+  transform: translateY(0);
+  transition: .3s ease;
+}
+
+details[open] summary:hover::after {
+  animation: pulse 1s ease;
+}
+
+@keyframes pulse {
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+    </style>
+  </head>
+  <body>
+      {% block body %}
+      
+      
+
+  <div id="responsive-admin-menu">
+      <div id="responsive-menu">
+        <div class="menuicon">≡</div>
+      </div>
+
+      <div id="logo"><img href = "http://itcity.az/assets/images/logo.png"></div>
+
+      <!--Menu-->
+      <div id="menu">
+        <h4 class = "panel-basliq">ÖN PANEL</h4>
+        
+          <a href="" title="Idare Paneli"><i class="fa fa-window-maximize"></i>
+            
+
+            <span> 
+                İdarə paneli</span></a>
+          <a href="/icazeler/index" title="Icazeler"><i class="fa fa-calendar-check-o"></i> <span>İcazələr</span></a>
+          <h4 class = "panel-basliq">İDARƏ ETMƏ</h4>
+          <a href="" title="Mesajlar"><i class="fa fa-envelope-o"></i> <span>Mesajlar</span></a>
+          <a href="" title="Bildirisler" name="media-sub"><i class="fa fa-bell-o"></i>
+            <span>  
+                Bildirişlər</span></a> 
+          
+          <a href="" title="Statistika"><i class="fa fa-bar-chart"></i>
+            <span>  
+          Statistika</span></a>
+          <a href="" title="Tenzimlemeler"><i class="fa fa-gear"></i>
+            <span>  
+                Tənzimləmələr</span></a>
+
+          <h4 class = "panel-basliq">TEXNİKİ DƏSTƏK</h4>
+          <!-- Other Contents Sub Menu -->
+          <a href="" title="Bizimle Elaqe"><i class="fa fa-life-bouy"></i>
+            <span>  
+                Bizimlə əlaqə</span></a>
+      </div>
+      <input type="checkbox" hidden="hidden" id="username">
+      <label class="switch" for="username"></label>
+      <!--Menu-->
 
 
+      </div>
+
+             
+            <div id="content-wrapper">
+                    <details open>
+                            <summary>Details</summary>
+                            <p>
+                                <p>Icaze Tipi:</p>{{ icaze.leave_type }}<br>
+                                <p>Icaze Baslama:</p>{{ icaze.leave_start }}<br>
+                                <p>Icaze Bitme:</p>{{ icaze.leave_end }}<br>
+                                <p>Icaze Sebebi:</p>{{ icaze.leave_reason }}<br></p>
+                          </details>
+                          
+                          
+</div>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+{% endblock %}
+
+
+
+
+
+</body></html>
+        
+<!-- 
         {{ icaze.id }}<br>
         {{ icaze.leave_type }}<br>
         {{ icaze.leave_start }}<br>
         {{icaze.leave_starttime}}<br>
         {{ icaze.leave_end }}<br>
         {{icaze.leave_endtime}}<br>
-        {{ icaze.leave_reason }}<br>
+        {{ icaze.leave_reason }}<br> -->
 
 
 
-{% endblock %}
+
 

@@ -354,6 +354,27 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
+/* fa */
+.fa.fa-pencil.icon{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #848484;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa.fa-trash.icon{
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #848484;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
 /*!
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
