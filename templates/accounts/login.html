@@ -1,0 +1,104 @@
+{% load crispy_forms_tags %}
+{% load static %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="/static/css/login.css"> 
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+     .login100-more::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    background: url("https://wallpaper-house.com/data/out/10/wallpaper2you_418336.jpg") no-repeat; 
+    opacity: 1;
+  }
+    </style>
+</head>
+  {% block body %}
+  <div class="limiter">
+		<div class="container-login100">
+            <div class="login100-more" ></div>
+           
+           
+
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+                
+                    
+                
+                   
+                    
+                    <div class = "container  ">
+                        <div class = "wrapper">
+                    <form method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        
+                       
+                                <img class = "my-5" src = "http://itcity.az/assets/images/logo.png">
+                                <h2 class = "text-panel my-4">İstifadəçi paneli</h2>
+                                <h5 class = "text-panel-small mb-5">IT City istifadəçi panelinə xoş gəlmisiz!</h5>
+                        <div class="form-group">
+                              
+
+                                <div id="div_id_username" class="form-group">
+                                    
+                                   <label for="id_username" class="control-label  requiredField">
+                                        E-mail və ya işçi nömrəsi<span class="asteriskField"></span>
+                                             </label> 
+                                                <div class="controls "> 
+                                                    <input class="textinput textInput form-control input-panel" id="id_username" maxlength="100" name="username" type="text" placeholder="E-mail və ya işçi nömrəsi">
+                                                 </div>
+                                                 </div> 
+                                                 <div id="div_id_password" class="form-group">
+                                                      <label for="id_password" class="control-label  requiredField">
+                                                            Şirfə<span class="asteriskField"></span>
+                                             </label> <div class="controls "> 
+                                                 <input class="textinput textInput form-control  input-panel" id="id_password" maxlength="100" name="password" type="password" placeholder="Şirfə"> 
+                                                </div> 
+                                            </div>
+                                
+                                     <button type="submit" class="btn btn-primary loginbtn ">Daxil ol</button>
+                                                          
+                                                    
+                                                
+                                
+                                                            
+                                 </div>
+                                </div>
+                            </div>
+                          </form>
+                          
+				
+
+                            
+            </div>
+		
+		</div>
+	</div>
+    
+    
+{% endblock %}
+
+</html>
+
+
+
+
+
+
+
+
+
+
+

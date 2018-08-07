@@ -1,0 +1,219 @@
+
+{% load static %}
+{% load staticfiles %}
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ITCITY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css"> 
+   
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/static/css/design.css">
+    <link rel="stylesheet" href="/static/css/icazedesign.css">
+    <link rel="stylesheet" href="/static/css/icazedesign2.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script>
+    </script>
+  </head>
+  <body>
+      {% block body %}
+      
+      
+
+  <div id="responsive-admin-menu">
+      <div id="responsive-menu">
+        <div class="menuicon">≡</div>
+      </div>
+
+      <div id="logo"><img href = "http://itcity.az/assets/images/logo.png"></div>
+
+      <!--Menu-->
+      <div id="menu">
+        <h4 class = "panel-basliq">&#1254;N PANEL</h4>
+        
+          <a href="" title="Idare Paneli"><i class="fa fa-window-maximize"></i>
+            
+
+            <span> 
+          Idar&#1241; Paneli</span></a>
+          <a href="/icazeler/index" title="Icazeler"><i class="fa fa-calendar-check-o"></i> <span>Icaz&#1241;l&#1241;r</span></a>
+          <h4 class = "panel-basliq">IDAR&#1240; ETM&#1240;</h4>
+          <a href="" title="Mesajlar"><i class="fa fa-envelope-o"></i> <span>Mesajlar</span></a>
+          <a href="" title="Bildirisler" name="media-sub"><i class="fa fa-bell-o"></i>
+            <span>  
+          Bildiri&#537;l&#1241;r</span></a> 
+          
+          <a href="" title="Statistika"><i class="fa fa-bar-chart"></i>
+            <span>  
+          Statistika</span></a>
+          <a href="" title="Tenzimlemeler"><i class="fa fa-gear"></i>
+            <span>  
+          T&#1241;nziml&#1241;m&#1241;l&#1241;r</span></a>
+
+          <h4 class = "panel-basliq">TEXNIKI D&#1240;ST&#1240;K</h4>
+          <!-- Other Contents Sub Menu -->
+          <a href="" title="Bizimle Elaqe"><i class="fa fa-life-bouy"></i>
+            <span>  
+          Biziml&#1241; &#1240;laq&#1241;</span></a>
+      </div>
+      <input type="checkbox" hidden="hidden" id="username">
+      <label class="switch" for="username"></label>
+      <!--Menu-->
+
+
+      </div>
+
+             
+            <div id="content-wrapper">
+                <h2 class="icaze-al-heading">Icaze al</h2>
+                
+                <section class="panel icazeform">
+                  <div class = "row">
+                      <form method = "POST" class = "icazeform">
+                        {% csrf_token %}
+                          <div class="form-row icazerow1">
+                            <div class="col-md-15">
+                                <label for="id_leave_type">Icazə Tipi:</label> <select class = "form-control selectpart" id="id_leave_type" name="leave_type">
+                                  <option selected>Secilmeyib</option>
+                                    <option value="xeste">XESTE</option>
+                                    <option value="tetil">TETIL</option>
+                                    <option value="bayram">BAYRAM</option>
+                                    </select>
+                            </div>
+                            
+                            <div class="col-md-15">
+                                
+                                <label for="id_leave_start_0">Baslangic Tarixi</label>
+                                <input class = "form-control datetimepart" id="id_leave_start_00" name="leave_start_0"  onfocus="(this.type='date')" placeholder="Tarix Sec">
+                                
+                            </div>
+                            <div class="col-md-15">
+                                <label for="id_leave_start_0">Baslangic Saati</label>
+                                <input class = "form-control datetimepart" id="id_leave_start_01" name="leave_start_1"  onfocus="(this.type='time')" placeholder="Saat Sec">
+                            </div>
+                            <div class="col-md-15">
+                                <label for="id_leave_end_0">Bitme Tarixi</label>
+                                <input class = "form-control datetimepart" id="id_leave_end_0" name="leave_end_0" onfocus="(this.type='date')" placeholder="Tarix Sec">
+                                
+                            </div>
+                            <div class="col-md-15">
+                                <label for="id_leave_end_0">Bitme Saati</label>
+                                <input class = "form-control datetimepart" id="id_leave_end_1" name="leave_end_1"  onfocus="(this.type='time')" placeholder="Saat Sec">
+                                
+                              </div>
+                            
+                          </div>
+                          <div class="form-row icazerow2">
+                            <div class="col-md-6">
+                              <label for="id_leave_reason">Movzu:</label> 
+                              <input class = "form-control reasonpart" id="id_leave_reason" maxlength="300" name="leave_reason" type="text" placeholder="İcazə səbəbinizi qeyd edin">
+                            </div>
+                            </div>
+                            
+                          </div>
+                          <div class="col-md-6">
+                          <button class="btn btn-primary icazealbutton" type="submit">Icaze al</button>
+                          </div>
+                          
+                        </form>
+                  
+                    
+                   <!-- filter icazeler -->
+                  </section>
+                  <section class="panel icazedata">
+                    <div class = "form-row"><h2 style = "
+                      font-size: 24px;
+                      font-family: Helvetica;
+                      
+                     " class = "icaze-al-heading2 col-sm-1">Icazeler</h2>
+                     <div class = "form-row">
+                     <h2 style = "font-family: Helvetica;
+                        font-size: 17px; margin-top: 5px;"class=" icaze-al-heading3 col-sm">Sırala</h2> 
+                      <div class="filter col-sm"><select style = " border: 0px;
+                        background-color: transparent;
+                        
+                        font-size: 17px;
+                        margin-top: 1px;">
+                        <option>İlə görə</option>
+                        <option>Active</option>
+                        <option>Disabled</option>
+                        <option>Suspended</option>
+                      </select>
+                    </div>
+                    </div>
+                    </div>
+                    <!-- filter icazeler/   -->
+
+
+                    <!-- Icazeler Table -->
+                  <div class="table-container">
+                      <table class="table">
+                        <thead class="thead-light">
+
+                          <tr >
+                            <th><label class="containercheck">
+                                <input type="checkbox" checked="checked" style = "display: none;">
+                                <span class="checkmark"></span>
+                              </label>
+                            </th>
+                            <th scope="col">Icaze Tipi</th>
+                            <th scope="col">Baslangic Tarixi ve Saati</th>
+                            <th scope="col">Bitme Tarixi ve Saati</th>
+                            <th scope = "col">Status</th>
+                            <th></th>
+                       
+                        </thead>
+                        <div class = "panel panel-default">
+                        <tbody class="table-body">
+                          {% for icaze in icazeler %}
+                          
+                          <tr class = "icazelerdata">
+                            
+                            <td><label class="containercheck">
+                                <input type="checkbox" checked="checked" style = "display: none;">
+                                <span class="checkmark"></span>
+                              </label></td>
+                            <td>{{ icaze.leave_type }}</td>
+                            <td> {{ icaze.leave_start }} </td>
+                            <td> {{ icaze.leave_end }}</td>
+                            <td> <i style = "font-size: 11px; color:gray;"class="fa">&#xf111;</i>  Gozleyir</td>
+                            <td><div class="dropdown">
+                                <button class="dropbtn"><i class="fa">&#xf141;</i></button>
+                                <div class="dropdown-content">
+                                  <a href = "http://127.0.0.1:8000/icazeler/{{ icaze.id }}/update">Redakte Et</a>
+                                  <a href="/icazeler/{{ icaze.id }}/delete">Sil</a>
+                                  
+                                </div>
+                              </div></td>
+
+                            <!-- <a href = "http://127.0.0.1:8000/icazeler/{{ icaze.id }}/update" ></a> -->
+                            
+                          </tr>
+                        
+                          {% endfor %}  
+                        </div>
+                        </tbody>
+                      </table>
+                        </div>
+                        </section>
+                
+            
+  
+  
+        </div>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+{% endblock %}
+{% include 'icazeler/test.html'%}
+
+
+
+
+
+</body></html>

@@ -1,0 +1,25 @@
+{% extends 'base.html'%}
+{% block body %}
+
+
+        {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+
+        {{ icaze.id }}<br>
+        {{ icaze.leave_type }}<br>
+        {{ icaze.leave_start }}<br>
+        {{icaze.leave_starttime}}<br>
+        {{ icaze.leave_end }}<br>
+        {{icaze.leave_endtime}}<br>
+        {{ icaze.leave_reason }}<br>
+
+
+
+{% endblock %}
+

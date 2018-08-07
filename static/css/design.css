@@ -1,0 +1,387 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+	/* body	*/
+	html, body {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+	    font-family: "Open Sans", Helvetica, sans-serif;
+	
+    
+		
+	}
+	/* body	*/
+
+
+#responsive-admin-menu {
+	float: left;
+    width: 200px;
+    background-color: #fff;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    left: 29px;
+    min-height: 500px;
+
+}
+
+#content-wrapper {
+	width: auto;
+	margin-left: 229px;
+	background-color: #f4f8f9;
+	height: 1200px;
+	padding: 15px;
+}
+
+#responsive-admin-menu #responsive-menu {
+	height: 50px;
+	display: none;
+	line-height: 50px;
+	cursor: pointer;
+	color: #ffffff;
+	text-indent: 10px;
+}
+
+
+#responsive-admin-menu #responsive-menu .menuicon {
+	color: #ffffff;
+	font-size: 24px;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+}
+#responsive-admin-menu #logo {
+	background-position: -0px -36px;
+	width: 174px;
+	height: 40px;
+	margin: 10px;
+  background: url('http://itcity.az/assets/images/logo.png') no-repeat;
+  background-size: 130px;
+
+}
+
+/* Menu Styles */
+#responsive-admin-menu #menu {
+	width: 100%;
+	margin-top: 54px;
+}
+#responsive-admin-menu #menu a {
+	font-size: 14px;
+	text-decoration: none;
+	display: block;
+	padding: 12px;
+	color: #3e476a;
+	position: relative;
+	font-weight: 400;
+	overflow: hidden;
+}
+#responsive-admin-menu #menu a:hover {
+	color: #52535a;
+  background-color:#2ba7f8;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+}
+#responsive-admin-menu #menu i {
+	width: 16px;
+	padding-right: 4px;
+}
+#responsive-admin-menu #menu div {
+	display: none;
+	width: 100%;
+	background-color: #5c5d64;
+	overflow: hidden;
+}
+#responsive-admin-menu #menu div a {
+	color: #c0c0c0;
+}
+#responsive-admin-menu #menu div a:hover {
+	color: #888888;
+}
+#responsive-admin-menu #menu a.submenu:before {
+	font-family: FontAwesome;
+	content: "\f054";
+}
+#responsive-admin-menu #menu a.downarrow:before {
+	font-family: FontAwesome;
+	content: "\f078";
+}
+#responsive-admin-menu #menu a.submenu:before {
+	font-size: 14px;
+	position: absolute;
+	right: 15px;
+	top: 17px;
+}
+/* Menu Styles */
+
+@media screen and (max-width: 960px) {
+	#responsive-admin-menu #responsive-menu {
+		display: none;
+	}
+	#responsive-admin-menu #menu a span {
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 800px) {
+	#responsive-admin-menu #menu a span {
+		display: none;
+	}
+	#responsive-admin-menu {
+		float: left;
+		width: 40px;
+		position: relative;
+	}
+	#responsive-admin-menu {
+		height: 100%;
+		
+	}
+	#content-wrapper {
+		margin-left: 40px;
+	}
+	#responsive-admin-menu #menu a.submenu:before {
+		font-size: 6px;
+		right: 5px;
+	}
+	#responsive-admin-menu #logo {
+		background: url('../images/logo.png');
+		background-position: -0px -0px;
+		width: 29px;
+		height: 26px;
+		margin: 10px 10px 10px 5px;
+	}
+}
+@media screen and (max-width: 480px) {
+	#responsive-admin-menu {
+		min-height: 50px;
+		float: left;
+		width: 100%;
+		background-color: #404040;
+		height: auto;
+		position: static;
+		top: 0;
+	}
+	#responsive-admin-menu #logo {
+		display: none;
+	}
+	#responsive-admin-menu #menu a span {
+		display: inline-block;
+	}
+	#content-wrapper {
+		margin-left: 0;
+		padding-top: 60px;
+	}
+	#responsive-admin-menu #responsive-menu {
+		display: block;
+	}
+	#responsive-admin-menu #menu {
+		display: none;
+	}
+	#responsive-admin-menu #menu a {
+		color: #FFFFFF;
+	}
+	#responsive-admin-menu #menu a.submenu:before {
+		font-size: 14px;
+		right: 15px;
+	}
+}
+
+/* <- Percentage Stuff Start */
+
+.containerper {
+	height: 265px;
+    width: 32%;
+    margin-top: -1080px;
+    margin-left: 248px;
+   
+    
+
+
+  
+  
+}
+.faiz {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+	.faiz:hover {
+	background-position: right center; /* change the direction of the change here */
+	}
+
+	.faiz {
+		background-image: linear-gradient(to right,#8a62ff 7%, #00c4ff 51%, #8a62ff 100%);
+		}
+	.svg-item {
+	width: 156px;
+	height: 211px;
+	font-size: 16px;
+	margin-left: 262px;
+	margin-top: -26px;
+	}
+	.donut-ring {
+	stroke: transparent;
+	}
+
+	.donut-segment {
+	animation: donut-chart-fill 1s reverse ease-in;
+	transform-origin: center;
+	stroke: #ffd400;
+	}
+
+	.donut-text {
+	font-family: Arial, Helvetica, sans-serif;
+	fill: #fff;
+	}
+
+	.donut-label {
+	font-size: 0.28em;
+	font-weight: 700;
+	line-height: 1;
+	fill: #000;
+	transform: translateY(0.25em);    
+	}
+
+	.donut-percent {
+	font-size: 0.5em;
+	fill: #ffffff;
+	line-height: 1;
+	transform: translateY(0.5em);
+	}
+
+	.faiz-sozler{
+	color: white;
+	position: absolute;
+	margin-left: 49px;
+	margin-top: 49px;
+	}
+	.gun{
+	position: absolute;
+	color: white;
+	margin-left: 53px;
+	margin-top: 93px;
+	font-size: 4.5em;
+	font-family: sans-serif;
+	}
+	.faiz-sozler-gun{
+	color: white;
+	position: absolute;
+	margin-left: 98px;
+	margin-top: 101px;
+
+	}
+	.toplam-icaze{
+	color: white;
+	position: absolute;
+	margin-left: 51px;
+	margin-top: 174px;
+	font-size: 0.9em;
+	}
+	.icaze_al_heading{
+	position: relative;
+	margin-left: -205px;
+	font-family: sans-serif;
+	font-size: 2em;
+	}
+.panel-basliq{
+		color: #939497;
+		font-size: 0.9em;
+	
+}
+
+.icaze-al-heading{
+    position: absolute;
+    margin-top: 71px;
+    margin-left: 15px;
+    font-size: 24px;
+    color: #202A53;
+    font-family: Helvetica;
+}
+.icaze-al-heading2{
+    margin-top: -80px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-family: Helvetica;
+    position: absolute;
+}
+.icaze-al-heading3{
+    font-family: Helvetica;
+    font-size: 17px;
+}
+
+.dropbtn {
+           
+            
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	background-color: white;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/*!
+ *  Font Awesome 3.0.2
+ *  the iconic font designed for use with Twitter Bootstrap
+ *  -------------------------------------------------------
+ *  The full suite of pictographic icons, examples, and documentation
+ *  can be found at: https://fortawesome.github.com/Font-Awesome/
+ *
+ *  License
+ *  -------------------------------------------------------
+ *  - The Font Awesome font is licensed under the SIL Open Font License - http://scripts.sil.org/OFL
+ *  - Font Awesome CSS, LESS, and SASS files are licensed under the MIT License -
+ *    https://opensource.org/licenses/mit-license.html
+ *  - The Font Awesome pictograms are licensed under the CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
+ *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
+ *    "Font Awesome by Dave Gandy - https://fortawesome.github.com/Font-Awesome"
+
+ *  Contact
+ *  -------------------------------------------------------
+ *  Email: dave@davegandy.com
+ *  Twitter: https://twitter.com/fortaweso_me
+ *  Work: Lead Product Designer @ http://kyruus.com
+ */
+
+@font-face{
+  font-family:'FontAwesome';
+  src:url('font/fontawesome-webfont.eot?v=3.0.1');
+  src:url('font/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+  url('font/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+  url('font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight:normal;
+  font-style:normal }
