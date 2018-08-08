@@ -3,7 +3,6 @@ from .models import Attend
 from .forms import AttendForm
 from django.contrib import messages
 from django.core.mail import send_mail
-from django.conf import settings
 # Create your views here.
 
 
@@ -25,8 +24,8 @@ def icaze_create(request):
          form = AttendForm(request.POST or None)
          if form.is_valid():
             icaze =  form.save()
-            
-            messages.success(request, 'Isteyiniz Gonderildi!')
+            send_mail('Hello from itcity','Hello there.This is an automated message.','charliescene512@gmail.com',['ximaye@pay-mon.com'],fail_silently=False)
+            # messages.success(request, 'Isteyiniz Gonderildi!')
             return HttpResponseRedirect("http://127.0.0.1:8000/icazeler/index/")
 
         #SAVE
