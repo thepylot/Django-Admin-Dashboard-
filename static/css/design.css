@@ -381,6 +381,16 @@
     border-color: #2BA7F8;
 }
 
+#flashMessage {
+    color: white;
+    background-color: #64ce83;
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    width: calc(100% - 100px);
+    margin-bottom: 40px;
+}
+
 /*!
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
