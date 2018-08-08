@@ -374,6 +374,12 @@
     -moz-osx-font-smoothing: grayscale;
 
 }
+/* updateicazbutton */
+.btn.btn-primary.updateicaze{
+	width: 162px;
+    background-color: #2BA7F8;
+    border-color: #2BA7F8;
+}
 
 /*!
  *  Font Awesome 3.0.2
