@@ -20,6 +20,7 @@ class AttendForm(forms.ModelForm):
     class Meta:
         model = Attend
         fields = [
+            
             'leave_type',
             'leave_start',
             'leave_end',

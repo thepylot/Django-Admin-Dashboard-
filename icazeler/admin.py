@@ -4,9 +4,11 @@ from django.contrib import admin
 from django.contrib import admin
 from icazeler.models import Attend
 class AttendAdmin(admin.ModelAdmin):
-    list_display = ['leave_type']
+    
+
+    list_display = ['user','leave_type', 'leave_start', 'leave_end','status']
 
     class Meta:
         model = Attend
-
+  
 admin.site.register(Attend,AttendAdmin)

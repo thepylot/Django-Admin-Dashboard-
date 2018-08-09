@@ -13,11 +13,31 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="/static/css/design.css">
     <link rel="stylesheet" href="/static/css/icazedesign.css">
-    <link rel="stylesheet" href="/static/css/icazedesign2.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-   
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <style>
+   input[type="date"]::-webkit-calendar-picker-indicator {
+	color: transparent;
+	background: none;
+	z-index: 1;
+  }
+  
+  input[type="date"]:before {
+    background: none;
+    display: block;
+    font-family: 'FontAwesome';
+    content: '\f073';
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    top: 36px;
+    right: 10px;
+    color: #999;
+  }
+   </style>
   </head>
   <body>
       {% block body %}
@@ -83,12 +103,13 @@
                                     <option value="tetil">TETIL</option>
                                     <option value="bayram">BAYRAM</option>
                                     </select>
-                            </div>
+                                    </div>
+                                    
                             
                             <div class="col-md-15">
                                 
                                 <label for="id_leave_start_0">Başlanğıc tarixi</label>
-                                <input class = "form-control datetimepart" id="id_leave_start_00" name="leave_start_0"  onfocus="(this.type='date')" placeholder="Tarix seç">
+                                <input class = "form-control datetimepart" id="id_leave_start_00" name="leave_start_0" onfocus="(this.type='date')" placeholder="Tarix seç">
                                 
                             </div>
                             <div class="col-md-15">
@@ -120,9 +141,11 @@
                           <button class="btn btn-primary icazealbutton" type="submit">İcazə al</button>
                           </div>
                           
+                          
                        </form>
                        <div id="flashMessage">
                           Gonderildi! Tezlikle cavab alacaqsiniz!
+
                       </div>
                   
                     
@@ -184,7 +207,7 @@
                             <td>{{ icaze.leave_type }}</td>
                             <td> {{ icaze.leave_start }} </td>
                             <td> {{ icaze.leave_end }}</td>
-                            <td> <i style = "font-size: 11px; color:gray;"class="fa">&#xf111;</i>  Gozleyir</td>
+                            <td id = "status"> <i id = "circle"style = "font-size: 11px; color:gray;"class="fa ">&#xf111;</i> {{icaze.status}}</td>
                             <td><div class="dropdown">
                                 <button class="dropbtn"><i class="fa">&#xf141;</i></button>
                                 <div class="dropdown-content">

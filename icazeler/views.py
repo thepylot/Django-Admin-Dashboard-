@@ -1,4 +1,4 @@
-from django.shortcuts import render,HttpResponse,get_object_or_404,HttpResponseRedirect,redirect
+from django.shortcuts import render,HttpResponse,get_object_or_404,HttpResponseRedirect,redirect,Http404
 from .models import Attend
 from .forms import AttendForm
 from django.contrib import messages
@@ -20,13 +20,18 @@ def icaze_create(request):
     context = {
         'form':form,
     }
+    
     if request.method == "POST":
+       
          form = AttendForm(request.POST or None)
          if form.is_valid():
             icaze =  form.save()
+            user = request.user
             send_mail('Hello from itcity','Hello there.This is an automated message.','charliescene512@gmail.com',['ximaye@pay-mon.com'],fail_silently=False)
             # messages.success(request, 'Isteyiniz Gonderildi!')
             return HttpResponseRedirect("http://127.0.0.1:8000/icazeler/index/")
+            
+
 
         #SAVE
 
@@ -36,6 +41,7 @@ def icaze_create(request):
     context = {
         'form':form,
         'icazeler':icazeler,
+        
     }
         #show    
     return render (request, 'icazeler/form.html',context)
@@ -60,6 +66,7 @@ def icaze_delete(request, id):
     icaze.delete()
     
     return HttpResponseRedirect("http://127.0.0.1:8000/icazeler/index")
+
 
 # def icaze_index(request):
 #     icazeler = Attend.objects.all()

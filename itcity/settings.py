@@ -114,3 +114,4 @@ EMAIL_USE_SSL = False
 EMAIL_HOST_USER = 'charliescene512@gmail.com'
 EMAIL_HOST_PASSWORD = 'charliehu512'
 EMAIL_PORT = 587
+
