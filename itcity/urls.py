@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^$', dash_view),
     url(r'^icazeler/', include('icazeler.urls')),
     url(r'^accounts/', include('accounts.urls')),
+    url(r'^tasks/', include('Tasks.urls')),
     
     
     

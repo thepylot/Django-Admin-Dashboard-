@@ -15,7 +15,7 @@ def dash_view(request):
 
 
 
-    return render(request, 'dashboard.html', context)
+    return render(request, 'index.html', context)
 
 
 

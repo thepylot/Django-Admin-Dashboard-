@@ -407,10 +407,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	width: 15px;
 	height: 20px;
 	position: absolute;
-	top: 12px;
-	right: 6px;
+	top:36px;
+	right: 9px;
 	color: #999;
   }
+  /*Typography*/
+.admin-quit-text{
+	display: inline;
+    font-size: 14px;
+    color: grey;
+}
 
 /*!
  *  Font Awesome 3.0.2
