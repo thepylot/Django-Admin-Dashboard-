@@ -151,9 +151,9 @@
     background-color: #2BA7F8;
     border-color: #2BA7F8;
 }
-.table {
-    width: 100%;
-    max-width: 100%;
+.table.dataicaze {
+    width: 316%;
+
     margin-bottom: 1rem;
     background-color: transparent;
     border-collapse: separate;
@@ -339,3 +339,9 @@ input:checked + .switch:active::before {
 .dropdown:hover .dropdown-content {display: block;}
 /* caelndar */
 
+.col-sm-6.panelform{
+
+        background-color: white;
+    -webkit-border-radius: .3rem;
+    height:300px;
+}

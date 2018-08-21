@@ -38,7 +38,7 @@
   transition: all 0.3s ease; }
 
 body {
-  background: #f1f2f7;
+  background: #f4f8f9;
   display: table;
   font-family: 'Open Sans' sans-serif;
   font-size: 16px;
@@ -170,7 +170,7 @@ aside.left-panel {
 
         color: #202A53 !important;
         display: inline-block;
-        font-family: 'Open Sans';
+        font-family: 'Helvetica';
         font-size: 14px;
         line-height: 30px;
         padding: 10px 0;

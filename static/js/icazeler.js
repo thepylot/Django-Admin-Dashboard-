@@ -30,3 +30,10 @@ function status () {
 
 status();
 
+function datepicker(){
+    $('#id_leave_start_0').calendar({
+  type: 'date'
+});
+}
+datepicker()
+
