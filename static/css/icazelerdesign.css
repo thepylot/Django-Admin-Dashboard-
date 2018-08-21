@@ -1,0 +1,70 @@
+.col-sm-5.form-control.percentage-container {
+     background-image: linear-gradient(to right,#8a62ff 7%, #00c4ff 51%, #8a62ff 100%);
+     flex: 1 1 auto;margin-top: 70px;
+     padding: 71px;
+
+
+
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+
+}
+
+
+
+
+.col-sm-5.form-control.percentage-container:hover {
+
+   background-position: right center; /* change the direction of the change here */
+}
+
+/*Tabel*/
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    padding: 25px;
+}
+/*svg item*/
+.svg-item {
+    width: 156px;
+    /* height: 211px; */
+    font-size: 16px;
+    margin-left: 216px;
+    margin-top: -155px;
+}
+.donut-ring {
+	stroke: transparent;
+	}
+
+	.donut-segment {
+	animation: donut-chart-fill 1s reverse ease-in;
+	transform-origin: center;
+	stroke: #ffd400;
+	}
+
+	.donut-text {
+	font-family: Arial, Helvetica, sans-serif;
+	fill: #fff;
+	}
+
+	.donut-label {
+	font-size: 0.28em;
+	font-weight: 700;
+	line-height: 1;
+	fill: #000;
+	transform: translateY(0.25em);
+	}
+
+	.donut-percent {
+	font-size: 0.5em;
+	fill: #ffffff;
+	line-height: 1;
+	transform: translateY(0.5em);
+	}

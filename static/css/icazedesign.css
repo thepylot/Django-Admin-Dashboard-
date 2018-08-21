@@ -1,3 +1,11 @@
+.col-sm-6.form-control.percentage-container{
+
+    background-color: white;
+    -webkit-border-radius: .3rem;
+    height:300px;
+    margin-top: 70px;
+}
+
 /*5 column*/
 .col-xs-15,
 .col-sm-15,
@@ -151,10 +159,10 @@
     background-color: #2BA7F8;
     border-color: #2BA7F8;
 }
-.table.dataicaze {
-    width: 316%;
+.table {
 
-    margin-bottom: 1rem;
+    padding:22px;
+
     background-color: transparent;
     border-collapse: separate;
     border-spacing: 0px 12px;
@@ -339,9 +347,3 @@ input:checked + .switch:active::before {
 .dropdown:hover .dropdown-content {display: block;}
 /* caelndar */
 
-.col-sm-6.panelform{
-
-        background-color: white;
-    -webkit-border-radius: .3rem;
-    height:300px;
-}
