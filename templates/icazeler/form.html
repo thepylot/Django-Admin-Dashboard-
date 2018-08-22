@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+
     <link rel="stylesheet" href="/static/css/design.css">
     <link rel="stylesheet" href="/static/css/icazedesign.css">
     <link rel="stylesheet" href="/static/css/icazelerdesign.css">
@@ -27,6 +28,11 @@
 
     <link href="/static/css/lib/vector-map/jqvmap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/jquery-ui.min.css">
+    <link rel = "stylesheet" href = "/static/css/jquery-ui.css">
+
+
+
 
 
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
@@ -251,11 +257,12 @@
         </header><!-- /header -->
         <!-- Header-->
     <section style = "padding:20px;">
-        <div class="col-sm-5 form-control percentage-container">
+        <div class="col-sm-4 form-control percentage-container">
             <div class="container">
             <h5>Alınmış icazə sayı</h5>
-            <h1>7</h1>
-            <p>gün</p>
+            <h1 class = "attend-counter-text">7 <span class = 'day-counter'>gün</span></h1>
+
+
             <p>*İllik toplam icazə 10 gün</p>
             </div>
 
@@ -276,6 +283,7 @@
 
 
         </div>
+        <div class = "col-sm-1"></div>
 
         <div class="col-sm-7  form-control" style = " padding: 36px 23px; margin-top:70px;">
             <form method="POST">
@@ -292,7 +300,9 @@
                     </div>
                     <div class = "form-group col-sm-15 ">
                 <label  for="id_leave_start_0">Baslangic Tarixi</label>
-                 <input class = "form-control " id="id_leave_start_0" name="leave_start_0" type="text" style = "width:97%" placeholder = "Tarix seç">
+                 <input class = "form-control " id="id_leave_start_0" name="leave_start_0" type="text" style = "width:97%"  placeholder = "Tarix seç" >
+
+
                     </div>
                     <div class = "form-group col-sm-15 ">
                 <label for="id_leave_start_1">Baslangic Saati</label>
@@ -376,8 +386,8 @@
                                 <span class="checkmark"></span>
                               </label></td>
                             <td>{{ icaze.leave_type }}</td>
-                            <td> {{ icaze.leave_start }} </td>
-                            <td> {{ icaze.leave_end }}</td>
+                            <td class="start"> {{ icaze.leave_start }} </td>
+                            <td class = 'end'> {{ icaze.leave_end }}</td>
                             <td class = "status"> <i style = "font-size: 11px; color:gray;"class="fa circle">&#xf111;</i> <span>{{icaze.status}}</span></td>
                             <td><div class="dropdown">
                                 <button class="dropbtn"><i class="fa">&#xf141;</i></button>
@@ -424,10 +434,13 @@
     </div><!-- /#right-panel -->
 
     <!-- Right Panel -->
-
+      <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+      <script src = "/static/js/jquery-ui.min.js"></script>
+      <script src = "/static/js/jquery-ui.js"></script>
     <script src="/static/js/vendor/jquery-2.1.4.min.js"></script>
     <script src="/static/js/plugins.js"></script>
-    <script src="/static/js/icazeler.js"></script>
+    <script src="/static/js/attendance.js"></script>
        <script type="text/javascript" src="/static/js/main.js"></script>
     <script src="/static/js/vendor/jquery-2.1.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
@@ -436,8 +449,10 @@
 
 
 
+
+
     <script src="/static/js/lib/chart-js/Chart.bundle.js"></script>
-    <script src=/static/js/dashboard.js"></script>
+    <script src="/static/js/dashboard.js"></script>
 
 
 
@@ -446,6 +461,7 @@
 
     <script src="/static/js/lib/chart-js/Chart.bundle.js"></script>
    <script type="text/javascript" src="/static/js/icazeler.js"></script>
+
 
 {% endblock %}
 

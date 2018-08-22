@@ -3,280 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="25f44ff7-6231-4334-b5d0-2b9299961bca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/design.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/icazedesign.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/icazedesign.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/0c2f4e7e3ce607a0f7f238a71122520ed74aaa15/_gauge.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/0c2f4e7e3ce607a0f7f238a71122520ed74aaa15/_switches.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/0c2f4e7e3ce607a0f7f238a71122520ed74aaa15/_widgets.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/0c2f4e7e3ce607a0f7f238a71122520ed74aaa15/style.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/0c2f4e7e3ce607a0f7f238a71122520ed74aaa15/variables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_alert.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_background-variant.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_badge.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_border-radius.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_box-shadow.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_breakpoints.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_buttons.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_caret.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_clearfix.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_float.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_forms.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_gradients.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_grid-framework.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_grid.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_hover.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_image.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_list-group.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_lists.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_nav-divider.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_pagination.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_reset-text.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_resize.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_screen-reader.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_size.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_table-row.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_text-emphasis.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_text-hide.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_text-truncate.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_transition.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/1ea663541d8aa72314e8caea4edf18e46ea3ed2e/_visibility.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_alert.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_badge.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_breadcrumb.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_button-group.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_buttons.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_card.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_carousel.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_close.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_code.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_custom-forms.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_dropdown.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_forms.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_functions.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_grid.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_images.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_input-group.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_jumbotron.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_list-group.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_media.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_mixins.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_modal.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_nav.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_navbar.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_pagination.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_popover.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_print.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_progress.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_reboot.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_root.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_tables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_tooltip.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_transitions.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_type.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_utilities.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/_variables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/590089d940a3045eb8c8b24b183c435305a7d5a9/bootstrap.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_alert.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_badge.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_breadcrumb.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_button-group.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_buttons.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_card.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_carousel.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_close.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_code.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_custom-forms.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_dropdown.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_forms.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_functions.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_grid.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_images.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_input-group.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_jumbotron.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_list-group.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_media.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_mixins.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_modal.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_nav.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_navbar.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_pagination.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_popover.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_print.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_progress.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_reboot.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_root.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_tables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_tooltip.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_transitions.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_type.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_utilities.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/_variables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/62cfef4a3fbfab02df9a4ee49a4d404e06273937/bootstrap.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6da42945727bdadaec570db1596987e0a46bfa4d/_gauge.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6da42945727bdadaec570db1596987e0a46bfa4d/_switches.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6da42945727bdadaec570db1596987e0a46bfa4d/_widgets.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6da42945727bdadaec570db1596987e0a46bfa4d/socials.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6da42945727bdadaec570db1596987e0a46bfa4d/style.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6da42945727bdadaec570db1596987e0a46bfa4d/variables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_align.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_background.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_borders.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_clearfix.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_display.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_embed.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_flex.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_float.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_position.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_screenreaders.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_sizing.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_spacing.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_text.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/6e69d195df721b3a89b57cbd4813c065acff1449/_visibility.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_alert.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_background-variant.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_badge.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_border-radius.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_box-shadow.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_breakpoints.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_buttons.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_caret.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_clearfix.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_float.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_forms.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_gradients.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_grid-framework.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_grid.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_hover.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_image.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_list-group.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_lists.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_nav-divider.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_pagination.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_reset-text.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_resize.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_screen-reader.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_size.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_table-row.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_text-emphasis.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_text-hide.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_text-truncate.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_transition.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/c64c3075ab570bf2e2c270d1fb05ff7e3db68931/_visibility.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_align.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_background.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_borders.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_clearfix.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_display.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_embed.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_flex.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_float.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_position.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_screenreaders.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_sizing.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_spacing.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_text.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/d192277f41c6848ff7411af310ee7b2a42ab6d76/_visibility.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/_gauge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/_switches.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/_widgets.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_breadcrumb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_button-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_card.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_close.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_code.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_custom-forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_images.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_input-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_jumbotron.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_media.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_modal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_popover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_progress.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_reboot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_root.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_tooltip.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_transitions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_type.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/bootstrap.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_caret.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_float.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_hover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_lists.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_navbar-align.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_resize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_size.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_transition.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_align.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_background.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_borders.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_display.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_embed.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_flex.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_float.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_position.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/socials.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/socials.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/socials.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/variables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/icazelerdesign.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/icazelerdesign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/icazeler.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/icazeler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/icazeler/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/icazeler/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -330,59 +60,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="form.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/icazeler/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="254" column="11" selection-start-line="254" selection-start-column="11" selection-end-line="254" selection-end-column="11" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#14499#14546#0#HTML" expanded="true" />
-                <element signature="e#14861#14880#0#HTML" expanded="true" />
-                <element signature="e#15399#15418#0#HTML" expanded="true" />
-                <element signature="e#15703#15722#0#HTML" expanded="true" />
-                <element signature="e#15996#16015#0#HTML" expanded="true" />
-                <element signature="e#16292#16311#0#HTML" expanded="true" />
-                <element signature="e#16428#16454#0#HTML" expanded="true" />
-                <element signature="e#16733#16752#0#HTML" expanded="true" />
-                <element signature="e#16864#16970#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="383" column="62" lean-forward="true" selection-start-line="383" selection-start-column="62" selection-end-line="383" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/icazeler/test.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/icazeler/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="193">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/icazeler/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/icazeler/models.py">
+      <file leaf-file-name="jquery-ui.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/jquery-ui.css">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-ui.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/jquery-ui.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-ui.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/jquery-ui.min.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcity/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="icazedesign.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/icazedesign.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="2397">
               <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
             </state>
           </provider>
@@ -391,26 +114,17 @@
       <file leaf-file-name="icazeler.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/icazeler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tasks.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Tasks/Tasks.html">
+      <file leaf-file-name="attendance.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/attendance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="design.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/design.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="226" selection-start-line="226" selection-end-line="226" />
+            <state relative-caret-position="731">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -418,17 +132,8 @@
       <file leaf-file-name="icazelerdesign.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/icazelerdesign.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="199" column="22" lean-forward="true" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
+            <state relative-caret-position="493">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -438,10 +143,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Python Script" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -474,8 +179,8 @@
       <find>table</find>
       <find>faiz</find>
       <find>message</find>
-      <find>col-sm-2</find>
       <find>fai</find>
+      <find>col-sm-2</find>
       <find>svg</find>
     </findStrings>
   </component>
@@ -487,7 +192,6 @@
       <list>
         <option value="$PROJECT_DIR$/dashboard/templates/hom.html" />
         <option value="$PROJECT_DIR$/templates/icazeler/detail.html" />
-        <option value="$PROJECT_DIR$/icazeler/views.py" />
         <option value="$PROJECT_DIR$/templates/icazeler/index.html" />
         <option value="$PROJECT_DIR$/icazeler/models.py" />
         <option value="$PROJECT_DIR$/static/js/jquery.min.js" />
@@ -504,12 +208,15 @@
         <option value="$PROJECT_DIR$/templates/Tasks/Tasks.html" />
         <option value="$PROJECT_DIR$/dashboard/views.py" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/static/js/icazeler.js" />
         <option value="$PROJECT_DIR$/static/css/icazedesign.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/css/design.css" />
+        <option value="$PROJECT_DIR$/itcity/settings.py" />
+        <option value="$PROJECT_DIR$/static/js/icazeler.js" />
         <option value="$PROJECT_DIR$/static/css/icazelerdesign.css" />
+        <option value="$PROJECT_DIR$/icazeler/views.py" />
         <option value="$PROJECT_DIR$/templates/icazeler/form.html" />
+        <option value="$PROJECT_DIR$/static/js/attendance.js" />
       </list>
     </option>
   </component>
@@ -523,16 +230,19 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="858" />
-    <option name="y" value="161" />
+    <option name="x" value="795" />
     <option name="width" value="1017" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -575,7 +285,21 @@
               <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery-ui.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -603,7 +327,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -618,6 +341,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rasha.LAPTOP-RFV9TPFE\Desktop\dashboard\static\js" />
+      <recent name="C:\Users\rasha.LAPTOP-RFV9TPFE\Desktop\dashboard\static\css" />
       <recent name="C:\Users\rasha.LAPTOP-RFV9TPFE\Desktop\itcity\static\js" />
       <recent name="C:\Users\rasha.LAPTOP-RFV9TPFE\Desktop\itcity\static\img" />
       <recent name="C:\Users\rasha.LAPTOP-RFV9TPFE\Desktop\itcity\static\css" />
@@ -681,16 +406,15 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.02869288" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.02763018" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17864583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.092708334" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.08177083" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947917" visible="true" weight="0.02869288" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.0421875" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -702,6 +426,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947917" visible="true" weight="0.02869288" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,54 +435,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/itcity/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icazeler/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/icazeler/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#14499#14546#0#HTML" expanded="true" />
-            <element signature="e#14861#14880#0#HTML" expanded="true" />
-            <element signature="e#15399#15418#0#HTML" expanded="true" />
-            <element signature="e#15703#15722#0#HTML" expanded="true" />
-            <element signature="e#15996#16015#0#HTML" expanded="true" />
-            <element signature="e#16292#16311#0#HTML" expanded="true" />
-            <element signature="e#16428#16454#0#HTML" expanded="true" />
-            <element signature="e#16733#16752#0#HTML" expanded="true" />
-            <element signature="e#16864#16970#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/design.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6885">
@@ -811,7 +494,6 @@
     <entry file="file://$PROJECT_DIR$/templates/header.html" />
     <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/templates/base.html" />
-    <entry file="file://$PROJECT_DIR$/itcity/settings.py" />
     <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4df370c9-3cdc-4d6c-bbb4-7f10b7cdb929/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
@@ -837,13 +519,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icazeler/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="104" />
         </state>
       </provider>
     </entry>
@@ -903,87 +578,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/bootstrap/_tables.scss">
+    <entry file="file://$PROJECT_DIR$/static/scss/bootstrap/_tables.scss" />
+    <entry file="file://$PROJECT_DIR$/static/scss/style.scss" />
+    <entry file="file://$PROJECT_DIR$/icazeler/forms.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icazeler/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/icazeler/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="199" column="22" lean-forward="true" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/icazeler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/icazedesign.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
+        <state relative-caret-position="6953">
+          <caret line="409" column="3" selection-start-line="409" selection-start-column="3" selection-end-line="423" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/icazeler/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/icazeler/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/design.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="3842">
           <caret line="226" selection-start-line="226" selection-end-line="226" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/jquery-ui.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/jquery-ui.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcity/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/icazedesign.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/icazelerdesign.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-column="9" />
+        <state relative-caret-position="493">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icazeler/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/icazeler/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="254" column="11" selection-start-line="254" selection-start-column="11" selection-end-line="254" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#14499#14546#0#HTML" expanded="true" />
-            <element signature="e#14861#14880#0#HTML" expanded="true" />
-            <element signature="e#15399#15418#0#HTML" expanded="true" />
-            <element signature="e#15703#15722#0#HTML" expanded="true" />
-            <element signature="e#15996#16015#0#HTML" expanded="true" />
-            <element signature="e#16292#16311#0#HTML" expanded="true" />
-            <element signature="e#16428#16454#0#HTML" expanded="true" />
-            <element signature="e#16733#16752#0#HTML" expanded="true" />
-            <element signature="e#16864#16970#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="383" column="62" lean-forward="true" selection-start-line="383" selection-start-column="62" selection-end-line="383" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/icazeler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/attendance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
         </state>
       </provider>
     </entry>

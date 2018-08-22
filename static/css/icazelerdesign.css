@@ -1,7 +1,13 @@
-.col-sm-5.form-control.percentage-container {
+/*calendar icon*/
+
+
+/*Percentage Conatiner*/
+
+.col-sm-4.form-control.percentage-container {
      background-image: linear-gradient(to right,#8a62ff 7%, #00c4ff 51%, #8a62ff 100%);
      flex: 1 1 auto;margin-top: 70px;
-     padding: 71px;
+     padding: 70px 40px;
+	 height:293px;
 
 
 
@@ -15,10 +21,16 @@
 
 }
 
+.attend-counter-text{
+	font-family:Helvetica;
+	font-size:65px;
+}
+.day-counter{
+	font-size:16px;
+	font-family:Helvetica;
+}
 
-
-
-.col-sm-5.form-control.percentage-container:hover {
+.col-sm-4.form-control.percentage-container:hover {
 
    background-position: right center; /* change the direction of the change here */
 }
