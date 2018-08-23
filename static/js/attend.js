@@ -1,14 +1,10 @@
-
-
-
-
 // message js
 $('#flashMessage').hide();
 $('.icazealbutton').click( function() {
 
 $('#flashMessage').slideDown().delay(3000).slideUp();
 
-})
+});
 // percentage table day js
 
 // Status Color
@@ -29,19 +25,16 @@ function status () {
    }
 
 
-
 status();
+
   var enddates = [];
   var startdates = [];
+  var diffdates = [];
   $('.end').each(function () {
         var endsecond = $(this).text().charAt(2);
         var endfirst =$(this).text().charAt(1);
         var dateend = endfirst + endsecond;
         return  enddates.push(Number(dateend));
-
-
-
-
 
 
     });
@@ -52,18 +45,47 @@ status();
         return startdates.push(Number(datestart));
 
 
-
-
-
-
     });
+function datediff () {
+    var datediff = 0;
+    for (var i = 0; i < enddates.length; i++) {
+        datediff = enddates[i] - startdates[i];
+        diffdates.push(Number(datediff));
 
 
-var sum = 0;
-for(var i=0; i< enddates.length; i++) {
-    sum = enddates[i]-startdates[i];
-    console.log(sum);
+
+
+
+    }
+
+
+
+
+
 }
+datediff();
+var sumOfDiff = diffdates.reduce((a, b) => a + b, 0);
+
+console.log(sumOfDiff);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

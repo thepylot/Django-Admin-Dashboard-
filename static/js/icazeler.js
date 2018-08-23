@@ -1,6 +1,6 @@
 
 
-
+alert('bla');
 
 // message js
 $('#flashMessage').hide();
