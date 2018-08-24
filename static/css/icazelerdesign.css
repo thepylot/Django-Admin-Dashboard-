@@ -1,3 +1,10 @@
+.navbar .navbar-nav li > a:hover, .navbar .navbar-nav li > a:hover {
+           background-color:#2ba7f8;
+           border-bottom-left-radius: 40px;
+           border-top-left-radius: 40px;
+
+          color: #fff !important; }
+
 /*calendar icon*/
 
 
@@ -6,7 +13,7 @@
 .col-sm-4.form-control.percentage-container {
      background-image: linear-gradient(to right,#8a62ff 7%, #00c4ff 51%, #8a62ff 100%);
      flex: 1 1 auto;margin-top: 70px;
-     padding: 70px 40px;
+     padding: 70px 25px;
 	 height:293px;
 
 
@@ -30,10 +37,7 @@
 	font-family:Helvetica;
 }
 
-.col-sm-4.form-control.percentage-container:hover {
 
-   background-position: right center; /* change the direction of the change here */
-}
 
 /*Tabel*/
 .table {

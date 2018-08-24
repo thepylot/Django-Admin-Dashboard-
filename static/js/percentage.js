@@ -82,20 +82,36 @@ sumOfDiff();
 // total
 function total () {
 
-    var totalDay = $('#total').text();
-    console.log(totalDay);
+    var totalDay = Number($('#total').text());
+    var avalibleDayNumber = totalDay - sumOfDiff();
+
+}
+total();
+
+
+
+// donut percentage
+
+var percentage = Number( $('.donut-percent').text());
+for(var i = 5; percentage.length>100; i++){
+
+
 }
 
 
+const picker = datepicker('#id_leave_start_0');
 
 
 
+function datepicker () {
+    $("#id_leave_start_0").datepicker({
+        dateFormat: "dd-mm-yy"
+        , duration: "fast"
+        // ,	weekHeader: "",
+        // , showWeek: true
+    });
 
-
-
-
-
-
+}
 
 
 

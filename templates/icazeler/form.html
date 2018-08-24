@@ -21,15 +21,17 @@
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/font-awesome.min.css">
     <link rel="stylesheet" href="/static/css/themify-icons.css">
-    <link rel="stylesheet" href="/static/css/flag-icon.min.css">
     <link rel="stylesheet" href="/static/css/cs-skin-elastic.css">
     <!-- <link rel="stylesheet" href="assets/css/bootstrap-select.less"> -->
-    <link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="stylesheet" href="/static/css/icazeler.css">
 
     <link href="/static/css/lib/vector-map/jqvmap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/static/css/jquery-ui.min.css">
     <link rel = "stylesheet" href = "/static/css/jquery-ui.css">
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet"/>
 
 
 
@@ -65,12 +67,16 @@
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active">
+                    <li>
                         <a href="http://127.0.0.1:8000"> <i class="menu-icon fa fa-window-maximize"> </i>İdarə paneli </a>
                     </li>
                     <h3 class="menu-title"> ÖN PANEL</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
                         <a href="http://127.0.0.1:8000/icazeler/index/" class="dropdown-toggle"  aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-calendar-check-o"></i> İcazələr</a>
+
+                    </li>
+                     <li class="menu-item-has-children dropdown">
+                        <a href="http://127.0.0.1:8000/tasks/indextask" class="dropdown-toggle"  aria-haspopup="true" aria-expanded="false"> <i class="menu-icon 	fa fa-list-alt"></i> Lövhələr</a>
 
                     </li>
                     <li class="menu-item-has-children dropdown">
@@ -79,10 +85,7 @@
                     </li>
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle"  aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bell-o"> </i>Bildirişlər</a>
-                        <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-th"></i><a href="forms-basic.html">Basic Form</a></li>
-                            <li><i class="menu-icon fa fa-th"></i><a href="forms-advanced.html">Advanced Form</a></li>
-                        </ul>
+
                     </li>
 
                     <h3 class="menu-title">İDARƏ ETMƏ</h3><!-- /.menu-title -->
@@ -96,11 +99,7 @@
                     </li>
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle"  aria-haspopup="true" aria-expanded="false"> <i class="menu-icon 	fa fa-clock-o "></i>Arxiv</a>
-                        <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-line-chart"></i><a href="charts-chartjs.html">Chart JS</a></li>
-                            <li><i class="menu-icon fa fa-area-chart"></i><a href="charts-flot.html">Flot Chart</a></li>
-                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="charts-peity.html">Peity Chart</a></li>
-                        </ul>
+
                     </li>
 
                     <li class="menu-item-has-children dropdown">
@@ -130,12 +129,11 @@
 
     <div id="right-panel" class="right-panel">
 
-        <!-- Header-->
         <header id="header" class="header">
 
             <div class="header-menu">
 
-                <div class="col-sm-10">
+                <div class="col-sm-9">
 
                     <div class="header-left">
                         <button class="search-trigger"><i class="fa fa-search"></i></button>
@@ -214,7 +212,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <div class="user-area dropdown float-right">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <img class="user-avatar rounded-circle" src="/static/images/admin.jpg" alt="User Avatar">
@@ -257,20 +255,25 @@
         </header><!-- /header -->
         <!-- Header-->
     <section style = "padding:20px;">
-        <div class="col-sm-4 form-control percentage-container">
-            <div class="container">
+        <div class="col-sm-4 form-control percentage-container" style = ' padding: 70px 25px; border: transparent;'>
+            <div class="container col-sm-6">
             <h5>Alınmış icazə sayı</h5>
-            <h1 class = "attend-counter-text">7 <span class = 'day-counter'>gün</span></h1>
+                <h1  class = "attend-counter-text"><span id = 'counter'>0</span> <span class = 'day-counter'>gün</span></h1>
 
 
-            <p>*İllik toplam icazə 10 gün</p>
+            <p>*İllik toplam icazə <span id = 'total'>20</span> gün</p>
             </div>
 
-              <div class="svg-item">
+              <div class="svg-item col-sm-6">
                 <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut">
                   <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="transparent"></circle>
                   <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle>
-                  <circle id="per" class="donut-segment" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="75 25" stroke-dashoffset="25"></circle>
+                    <circle id="per" class="donut-segment-default" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="2" stroke-dasharray="100 0" stroke-dashoffset="25" style = 'animation: donut-chart-fill 1s reverse ease-in;
+        transform-origin: center;
+        stroke: #ffffff;'></circle>
+
+                   <circle id="per" class="donut-segment" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="2" stroke-dasharray="60 40" stroke-dashoffset="25"></circle>
+
                   <g class="donut-text">
 
                     <text y="50%" transform="translate(0, 2)">
@@ -285,7 +288,7 @@
         </div>
         <div class = "col-sm-1"></div>
 
-        <div class="col-sm-7  form-control" style = " padding: 36px 23px; margin-top:70px;">
+        <div class="col-sm-7  form-control" style = " padding: 36px 23px; margin-top:70px; border: transparent;">
             <form method="POST">
                 {% csrf_token %}
                 <div class = "form-row">
@@ -300,21 +303,21 @@
                     </div>
                     <div class = "form-group col-sm-15 ">
                 <label  for="id_leave_start_0">Baslangic Tarixi</label>
-                 <input class = "form-control " id="id_leave_start_0" name="leave_start_0" type="text" style = "width:97%"  placeholder = "Tarix seç" >
+                 <input class = "form-control " id="id_leave_start_0" name="leave_start_0" type="text" style = "width:97%"  placeholder = "Tarix seç" onfocus="(this.type='date')" >
 
 
                     </div>
                     <div class = "form-group col-sm-15 ">
                 <label for="id_leave_start_1">Baslangic Saati</label>
-                 <input class = "form-control" id="id_leave_start_1" name="leave_start_1" type="text" style = "width:97%" placeholder="Saat seç">
+                 <input class = "form-control" id="id_leave_start_1" name="leave_start_1" type="text" style = "width:97%" placeholder="Saat seç" onfocus="(this.type='time')" >
                     </div>
                     <div class = "form-group col-sm-15 ">
                 <label for="id_leave_end_0">Bitme Tarixi</label>
-                 <input class = "form-control " id="id_leave_end_0" name="leave_end_0" type="text" style = "width:97%" placeholder = "Tarix seç">
+                 <input class = "form-control " id="id_leave_end_0" name="leave_end_0" type="text" style = "width:97%" placeholder = "Tarix seç" onfocus="(this.type='date')">
                     </div>
                     <div class = "form-group col-sm-15 ">
                  <label for="id_leave_end_1">Bitme Saati</label>
-                <input  class = "form-control " id="id_leave_end_1" name="leave_end_1" type="text" style = "width:97%" placeholder="Saat seç">
+                <input  class = "form-control " id="id_leave_end_1" name="leave_end_1" type="text" style = "width:97%" placeholder="Saat seç" onfocus="(this.type='time')">
                     </div>
                 </div>
 
@@ -359,7 +362,7 @@
 
                     <!-- Icazeler Table -->
                   <div class="table-container">
-                      <table class="table">
+                      <table class="table" data-sort-order="desc">
                         <thead class="thead-light">
 
                           <tr >
@@ -379,7 +382,7 @@
                         <tbody class="table-body">
                           {% for icaze in icazeler %}
 
-                          <tr class = "icazelerdata">
+                          <tr class = "icazelerdata" colspan = '1'>
 
                             <td><label class="containercheck">
                                 <input type="checkbox" checked="checked" style = "display: none;">
@@ -412,6 +415,8 @@
 
 
 
+
+
                     </div>
                 </div>
             </div>
@@ -435,16 +440,22 @@
 
     <!-- Right Panel -->
       <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+
   <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
       <script src = "/static/js/jquery-ui.min.js"></script>
       <script src = "/static/js/jquery-ui.js"></script>
     <script src="/static/js/vendor/jquery-2.1.4.min.js"></script>
     <script src="/static/js/plugins.js"></script>
     <script src="/static/js/attend.js"></script>
-       <script type="text/javascript" src="/static/js/main.js"></script>
+      <script type="text/javascript" src="/static/js/main.js"></script>
     <script src="/static/js/vendor/jquery-2.1.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="/static/js/plugins.js"></script>
+      <script src = '/static/js/percentage.js'></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+      <script src="/static/js/datepicker.js"></script>
+      <script src="/static/js/datepicker.min.js"></script>
 
 
 
@@ -460,7 +471,6 @@
 
 
     <script src="/static/js/lib/chart-js/Chart.bundle.js"></script>
-   <script type="text/javascript" src="/static/js/icazeler.js"></script>
 
 
 {% endblock %}

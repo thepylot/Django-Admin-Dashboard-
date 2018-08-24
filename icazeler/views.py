@@ -27,7 +27,7 @@ def icaze_create(request):
          if form.is_valid():
             icaze =  form.save()
             user = request.user
-            send_mail('Hello from itcity','Hello there.This is an automated message.','charliescene512@gmail.com',['ximaye@pay-mon.com'],fail_silently=False)
+            # send_mail('Hello from itcity','Hello there.This is an automated message.','charliescene512@gmail.com',['ximaye@pay-mon.com'],fail_silently=False)
             # messages.success(request, 'Isteyiniz Gonderildi!')
             return HttpResponseRedirect("http://127.0.0.1:8000/icazeler/index/")
             

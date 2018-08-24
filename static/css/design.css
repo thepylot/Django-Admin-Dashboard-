@@ -373,8 +373,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	width: 15px;
 	height: 20px;
 	position: absolute;
-	top:36px;
-	right: 9px;
+	top: 40px;
+    right: 19px;
 	color: #999;
   }
   /*Typography*/
@@ -398,6 +398,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
+
 
 /*!
  *  Font Awesome 3.0.2
