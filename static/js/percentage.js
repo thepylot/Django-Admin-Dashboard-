@@ -71,6 +71,14 @@ datediff();
 function sumOfDiff () {
     var sumOfDiffs = diffdates.reduce((a, b) => a + b, 0);
     document.getElementById("counter").innerHTML = sumOfDiffs;
+   // var donutPercent = Number($('.donut-percent').text().replace('%',''));
+    var finalPercentage = (sumOfDiffs * 100) / 20;
+     document.getElementById("donutPercentage").innerHTML = finalPercentage + '%' ;
+
+
+
+
+
 
 
 
@@ -84,6 +92,7 @@ function total () {
 
     var totalDay = Number($('#total').text());
     var avalibleDayNumber = totalDay - sumOfDiff();
+
 
 }
 total();
@@ -99,19 +108,6 @@ for(var i = 5; percentage.length>100; i++){
 }
 
 
-const picker = datepicker('#id_leave_start_0');
-
-
-
-function datepicker () {
-    $("#id_leave_start_0").datepicker({
-        dateFormat: "dd-mm-yy"
-        , duration: "fast"
-        // ,	weekHeader: "",
-        // , showWeek: true
-    });
-
-}
 
 
 

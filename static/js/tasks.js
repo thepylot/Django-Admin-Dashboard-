@@ -25,7 +25,7 @@ function createList(textValue) {
             dotIcon = document.createElement("a"),
             newTextNode = document.createTextNode(textValue),
             addCardLink = document.createElement("a"),
-            addText = document.createTextNode("Add a card..."),
+            addText = document.createTextNode("Tapsirirq elave et"),
             lists,
             x,
             y;

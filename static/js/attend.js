@@ -1,4 +1,5 @@
 
+alert('hey');
 $('#flashMessage').hide();
 $('.icazealbutton').click( function() {
 
@@ -85,7 +86,6 @@ function total () {
     var totalDay = $('#total').text();
     console.log(totalDay);
 }
-
 
 
 
