@@ -84,3 +84,13 @@
 	line-height: 1;
 	transform: translateY(0.5em);
 	}
+#flashMessage {
+    color: white;
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    width: calc(100% - 100px);
+    margin-bottom: 40px;
+	position: absolute;
+}

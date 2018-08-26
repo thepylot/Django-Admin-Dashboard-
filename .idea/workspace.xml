@@ -4,12 +4,10 @@
     <list default="true" id="25f44ff7-6231-4334-b5d0-2b9299961bca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/tasks.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/tasks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/attend.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/attend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/percentage.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/percentage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/tasks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Tasks/Tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Tasks/Tasks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/design.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/icazelerdesign.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/icazelerdesign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/attend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/percentage.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/icazeler/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/icazeler/form.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,26 +66,44 @@
       <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/icazeler/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="279" column="80" selection-start-line="279" selection-start-column="80" selection-end-line="279" selection-end-column="80" />
+            <state relative-caret-position="570">
+              <caret line="276" lean-forward="true" selection-start-line="276" selection-end-line="276" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="percentage.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/js/percentage.js">
+      <file leaf-file-name="icazeler.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/icazeler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="492">
+              <caret line="154" column="31" lean-forward="true" selection-start-line="154" selection-start-column="31" selection-end-line="154" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attend.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/attend.js">
+      <file leaf-file-name="icazelerstyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/icazelerstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-884">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="design.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/design.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="349" selection-start-line="349" selection-end-line="349" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icazelerdesign.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/icazelerdesign.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="859">
+              <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -104,10 +120,15 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
+            <state relative-caret-position="-17">
               <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/icazeler/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -117,14 +138,13 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.navbar .navbar-nav li &gt; a .menu-icon</find>
       <find>notifi</find>
       <find>body</find>
       <find>.navbar .menu-title</find>
@@ -154,6 +174,7 @@
       <find>#save-list-btn</find>
       <find>#009ce2</find>
       <find>&quot;save-list-btn</find>
+      <find>flash</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,11 +203,8 @@
         <option value="$PROJECT_DIR$/itcity/settings.py" />
         <option value="$PROJECT_DIR$/static/js/attendance.js" />
         <option value="$PROJECT_DIR$/static/css/attend.js" />
-        <option value="$PROJECT_DIR$/static/js/icazeler.js" />
         <option value="$PROJECT_DIR$/icazeler/views.py" />
         <option value="$PROJECT_DIR$/static/css/datepicker.css" />
-        <option value="$PROJECT_DIR$/static/css/design.css" />
-        <option value="$PROJECT_DIR$/static/css/icazelerdesign.css" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/static/css/icazeler.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
@@ -195,8 +213,12 @@
         <option value="$PROJECT_DIR$/templates/Tasks/Tasks.html" />
         <option value="$PROJECT_DIR$/static/js/tasks.js" />
         <option value="$PROJECT_DIR$/static/js/attend.js" />
-        <option value="$PROJECT_DIR$/templates/icazeler/form.html" />
         <option value="$PROJECT_DIR$/static/js/percentage.js" />
+        <option value="$PROJECT_DIR$/static/css/design.css" />
+        <option value="$PROJECT_DIR$/static/css/icazelerdesign.css" />
+        <option value="$PROJECT_DIR$/static/css/icazelerstyle.css" />
+        <option value="$PROJECT_DIR$/templates/icazeler/form.html" />
+        <option value="$PROJECT_DIR$/static/js/icazeler.js" />
       </list>
     </option>
   </component>
@@ -397,7 +419,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/aria.rnc" />
     <entry file="file://$PROJECT_DIR$/static/style.css" />
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css" />
     <entry file="file://$PROJECT_DIR$/templates/icazeler/index.html">
@@ -470,9 +491,6 @@
     <entry file="file://$PROJECT_DIR$/icazeler/forms.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/icazeler/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/icazeler/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -491,7 +509,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/attendance.js" />
     <entry file="file://$PROJECT_DIR$/static/css/attend.js" />
-    <entry file="file://$PROJECT_DIR$/static/js/icazeler.js" />
     <entry file="file://$PROJECT_DIR$/static/js/jquery-ui.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -515,13 +532,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/datepicker.css" />
     <entry file="file://$PROJECT_DIR$/static/js/datepicker.js" />
-    <entry file="file://$PROJECT_DIR$/static/css/design.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="387" column="19" selection-start-line="387" selection-start-column="19" selection-end-line="387" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/icazedesign.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1309">
@@ -533,13 +543,6 @@
       <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tasks/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -548,13 +551,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/task.css" />
-    <entry file="file://$PROJECT_DIR$/static/css/icazelerdesign.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -586,24 +582,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/icazeler/form.html">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="279" column="80" selection-start-line="279" selection-start-column="80" selection-end-line="279" selection-end-column="80" />
+        <state relative-caret-position="-17">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/icazeler/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/attend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-884">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="true" selection-end-line="106" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/percentage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="204">
+          <caret line="49" lean-forward="true" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/design.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="349" selection-start-line="349" selection-end-line="349" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/icazelerdesign.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/icazelerstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/icazeler/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="276" lean-forward="true" selection-start-line="276" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/icazeler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="154" column="31" lean-forward="true" selection-start-line="154" selection-start-column="31" selection-end-line="154" selection-end-column="31" />
         </state>
       </provider>
     </entry>
