@@ -333,6 +333,7 @@ if (textValue) {
         addCardLink = document.createElement("a"),
         addSaveLink = document.createElement("a"),
         listOfTasks = document.createElement("ul"),
+        savebtntext = document.createTextNode("Save"),
         addText = document.createTextNode("Tapsirirq elave et"),
         lists,
         x,
@@ -358,11 +359,12 @@ if (textValue) {
         listTitle.appendChild(dotIcon);
         listTitle.setAttribute("class", "list-title");
         listTitle.appendChild(title);
-        addCardLink.setAttribute("href", "#");
+       // addCardLink.setAttribute("href", "#");
         addCardLink.setAttribute("class", "add");
         addSaveLink.setAttribute("class", "save disabled");
-        addSaveLink.setAttribute("href", "#");
+        //addSaveLink.setAttribute("href", "#");
         addCardLink.appendChild(addText);
+        addSaveLink.appendChild(savebtntext);
         listOfTasks.setAttribute("class", "column-wrapper");
         parentDiv.style.cssFloat = "left";
         parentDiv.style.display = "inline-block";
@@ -370,6 +372,7 @@ if (textValue) {
         parentDiv.appendChild(listOfTasks);
         parentDiv.appendChild(addCardLink);
         parentDiv.appendChild(addSaveLink);
+
 
         container.insertBefore(parentDiv, addList1);
         addListBtn.style.display = "inline-block";
