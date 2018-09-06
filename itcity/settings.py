@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'icazeler',
     'crispy_forms',
+    'Tasks',
 )
 
 MIDDLEWARE_CLASSES = (

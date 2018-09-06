@@ -1,4 +1,4 @@
-
+//LIST VARS
 var container = document.getElementById("container"),
 addListBtn = document.getElementById("add-a-list-btn"),
 addList1 = document.getElementById("add-a-list"),
@@ -20,8 +20,28 @@ saveListBox.style.display = "inline-block";
 
 
 }
+//DATE FOR TASKS
+function date(){
+    var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1; //January is 0!
+var yyyy = today.getFullYear();
 
+if(dd<10) {
+    dd = '0'+dd
+} 
+
+if(mm<10) {
+    mm = '0'+mm
+} 
+
+today = mm + '/' + dd + '/' + yyyy;
+return today;
+}
+//TASK STARTS HERE
+var user = '{{user}}';
 function tasksAdd(){
+
 
     $(".add").click(function(e) {
         e.stopPropagation();
@@ -38,7 +58,7 @@ function tasksAdd(){
         $(this)
             .prev()
             .append(
-            '<li class="card no-tile"><div class=""><textarea class="add-textarea" autofocus/></div><i class="js-remove">✖</i>'
+            '<li class="card no-tile"><div class=""><textarea class="add-textarea" autofocus/></div><div class = "date row"><i class = " cal fa fa-calendar"></i>' + date() + '<i class = " book fa fa-bookmark-o"></i></div><i class="js-remove">✖</i></li>'
         );
         $(this)
             .closest(".col")
@@ -321,7 +341,59 @@ function tasksAdd(){
           $(this).parent('.card').remove();
       });
     }
-
+    //DRAG DROP
+    function dragdrop(){
+        $(function(){
+            $('ul').sortable({
+                  connectWith: 'ul',
+                  beforeStop: function(ev, ui) {
+                      if ($(ui.item).hasClass('number') && $(ui.placeholder).parent()[0] != this) {
+                          $(this).sortable('cancel');
+                      }
+                    assignValues();
+                    showValues();
+                    is_completed();
+                  }
+              });    
+          //   $("#target").sortable({
+          //     connectWith:"#sortable",
+          //      placeholder:"highlight",
+          //     connectWith: "#sortable",
+          //     revert:true,
+              
+          //      stop:function(event,ui){
+          //       assignValues();
+          //       showValues();
+          //     }
+          //   });
+            $("#sortable #target").disableSelection();
+            function assignValues(){
+              $("#sortable li,#target li").each(function(){
+                $(this).find("input").val($(this).index()+1)
+              })
+            }
+            
+            function showValues(){
+              
+              $("#target li").each(function(){
+               var i= $(this).find("input").val();
+               $(this).find(".index").html("<p>"+i+"</p>");
+              })
+            
+            }
+            function is_completed(){
+              len=$("#target li").length;
+              if(len>3){
+                $("#sortable li").addClass("number");
+              }
+              if(len<3){
+                $("#sortable li").removeClass("number");
+              }
+              
+            }
+          });
+        }
+// LIST SECTION
 function createList(textValue) {
 "use strict";
 if (textValue) {
@@ -366,6 +438,8 @@ if (textValue) {
         addCardLink.appendChild(addText);
         addSaveLink.appendChild(savebtntext);
         listOfTasks.setAttribute("class", "column-wrapper");
+        
+        listOfTasks.setAttribute("id", "sortable");
         parentDiv.style.cssFloat = "left";
         parentDiv.style.display = "inline-block";
         parentDiv.appendChild(listTitle);
@@ -383,6 +457,7 @@ if (textValue) {
 
        addCardLink.addEventListener("click", function(){
            tasksAdd();
+           dragdrop();
         
           
        })
@@ -403,23 +478,16 @@ saveListBtn.addEventListener("click", function () {
 
 
 
+
 });
 
 
 
+//AJAX GET
+// $.ajax({
+//     type: "GET",
+//     url : "ajax/more/"
+// })
+//AJAX POST
+//CSRF CODE
 
-//Create Task -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//Create Task -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//Create Task -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//Create Task -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//Create Task -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-  
- // $('.add').click(function(e){for (var i = 1; i <= 4; i++) {
-    //  Sortable.create(document.getElementById("col_" + i), {
-     //     group: "omega",
-     //     draggable: ".tile",
-     //     animation: 300
-     // });
-  //}
-  
