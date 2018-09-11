@@ -21,9 +21,9 @@ from dashboard.views import dash_view
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', dash_view),
-    url(r'^icazeler/', include('icazeler.urls')),
-    url(r'^accounts/', include('accounts.urls')),
-    url(r'^tasks/', include('Tasks.urls')),
+    url(r'^icazeler/', include('icazeler.urls', namespace = 'icazeler')),
+    url(r'^accounts/', include('accounts.urls', namespace='accounts')),
+    url(r'^tasks/', include('Tasks.urls', namespace = 'tasks')),
     
     
     

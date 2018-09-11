@@ -247,7 +247,7 @@
                                 <i class="flag-icon flag-icon-us"></i>
                             </div>
                             <div class="dropdown-item">
-                                <i class="flag-icon flag-icon-it"></i>
+                                <i class="flag-icon flag-icon-it"></i> 
                             </div>
                         </div>
                     </div>
@@ -259,113 +259,83 @@
         <!-- Header-->
          <div>
 
-<div class="container">
+
+                            <!-- dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
+                            <div class="container">
+                                <img src = "/{{profile.avatar.url}}" style = "width:250px;">
+
         
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h4> {{profile.firstname}} {{profile.lastname}} </h4>
-                                <hr>
-
+                                    <div class="card">
+                                        <div class="card-body">
+            <form method="POST">
+                   {% csrf_token %}
+    
+    <div id="div_id_firstname" class="form-group">
+         <label for="id_firstname" class="control-label ">Firstname<span class="asteriskField"></span> 
+                </label>
+                 <div class="controls "> 
+                     <input class="textinput textInput form-control" id="id_firstname" maxlength="50" name="firstname" type="text" value="{{profile.firstname}}">
+                     </div>
+                     </div> 
+                     <div id="div_id_lastname" class="form-group"> 
+                         <label for="id_lastname" class="control-label  requiredField">Lastname<span class="asteriskField">*</span>
+                 </label> 
+                 <div class="controls "> 
+                     <input class="textinput textInput form-control" id="id_lastname" maxlength="100" name="lastname" type="text" value="{{profile.lastname}}">
+                     </div> 
+                    </div> 
+                    <div id="div_id_fathername" class="form-group"> 
+                        <label for="id_fathername" class="control-label  requiredField">Fathername<span class="asteriskField">*</span>
+                         </label>
+                     <div class="controls ">
+                          <input class="textinput textInput form-control" id="id_fathername" maxlength="100" name="fathername" type="text" value="{{profile.fathername}}">
+                         </div>
+                         </div> 
+                         <div id="div_id_email" class="form-group"> 
+                             <label for="id_email" class="control-label  requiredField">Email</label>
+                              <div class="controls ">
+                                   <input class="textinput textInput form-control" id="id_email" maxlength="100" name="email" type="text" value="{{profile.email}}">
+                                 </div>
+                                 </div>
+                                  <div id="div_id_bio" class="form-group">
+                                       <label for="id_bio" class="control-label ">Bio</label> 
+                               <div class="controls "> 
+                                <textarea class="textarea form-control" cols="40" id="id_bio" name="bio" rows="10" >{{profile.bio}}</textarea>
                             </div>
+                            </div>
+                            <div id="div_id_phone" class="form-group"> <label for="id_phone" class="control-label "> Phone</label> 
+                            <div class="controls "> 
+                                <input class="textinput textInput form-control" id="id_phone" maxlength="20" name="phone" type="text" value="{{profile.phone}}"> 
+                            </div> 
                         </div>
-                        <img  src = 'https://scontent-ort2-1.cdninstagram.com/vp/2a0fcc90d7c0c1d07e51959d097ff832/5C16F1E4/t51.2885-15/sh0.08/e35/c180.0.720.720/s640x640/37048900_2147590632120596_6599017568684474368_n.jpg' style = "width:250px;">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <form>
-                                  <div class="form-group row">
-                                    <label for="username" class="col-4 col-form-label">User Name*</label> 
-                                    <div class="col-8">
-                                        
-                                      <input id="username" name="username" placeholder="{{user}}" class="form-control here" required="required" type="text">
-                                    </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label for="name" class="col-4 col-form-label">First Name</label> 
-                                    <div class="col-8">
-                                      <input id="name" name="name" placeholder="{{profile.firstname}}" class="form-control here" type="text">
-                                    </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label for="lastname" class="col-4 col-form-label">Last Name</label> 
-                                    <div class="col-8">
-                                      <input id="lastname" name="lastname" placeholder="{{profile.lastname}}" class="form-control here" type="text">
-                                    </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label for="text" class="col-4 col-form-label">Father Name</label> 
-                                    <div class="col-8">
-                                      <input id="text" name="text" placeholder="{{profile.fathername}}" class="form-control here" required="required" type="text">
-                                    </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label for="select" class="col-4 col-form-label">Phone Number</label> 
-                                    <div class="col-8">
-                                        <input id="text" name="text" placeholder="{{profile.phone}}" class="form-control here" required="required" type="text">
-
-                                      
-                                    </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label for="email" class="col-4 col-form-label">Email*</label> 
-                                    <div class="col-8">
-                                      <input id="email" name="email" placeholder="{{profile.email}}" class="form-control here" required="required" type="text">
-                                    </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label for="website" class="col-4 col-form-label">Website</label> 
-                                    <div class="col-8">
-                                      <input id="website" name="website" placeholder="website" class="form-control here" type="text">
-                                    </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label for="publicinfo" class="col-4 col-form-label">Bio</label> 
-                                    <div class="col-8">
-                                      <textarea id="publicinfo" name="publicinfo" cols="40" rows="4" class="form-control" placeholder="{{profile.bio}}"></textarea>
-                                    </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label for="newpass" class="col-4 col-form-label">New Password</label> 
-                                    <div class="col-8">
-                                      <input id="newpass" name="newpass" placeholder="New Password" class="form-control here" type="text">
-                                    </div>
-                                  </div> 
-                                  <div class="form-group row">
+                        <div id="div_id_city" class="form-group">
+                            <label for="id_city" class="control-label ">City</label>
+                            <div class="controls ">
+                                <input class="textinput textInput form-control" id="id_city" maxlength="100" name="city" type="text" value="{{profile.city}}"> 
+                                </div> 
+                            </div> 
+                            <div id="div_id_country" class="form-group">
+                                <label for="id_country" class="control-label "> Country</label>
+                            <div class="controls ">
+                                <input class="textinput textInput form-control" id="id_country" maxlength="100" name="country" type="text" value = {{profile.country}}>
+                                </div>
+                                </div>
+                                <div id="div_id_organization" class="form-group"> <label for="id_organization" class="control-label ">Organization</label>
+                            <div class="controls "> 
+                                <input class="textinput textInput form-control" id="id_organization" maxlength="100" name="organization" type="text" value="{{profile.organization}}"> 
+                                </div> 
+                            </div>
+                            <div class="form-group row">
                                     <div class="offset-4 col-8">
-                                      <button name="submit" type="submit" class="btn btn-primary">Update My Profile</button>
+                
+                            <button name="submit" type="submit" class="btn btn-primary">Update My Profile</button>
                                     </div>
-                                  </div>
+                                </div>
                                 </form>
                             </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <form method="POST">
-                    <input type="hidden" name="csrfmiddlewaretoken" value="yC1TEu5JyI5Cp5hsZaQthJUucANVTVYA">
-                
-    
-    <div id="div_id_firstname" class="form-group"> <label for="id_firstname" class="control-label  requiredField">
-                    Firstname<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_firstname" maxlength="50" name="firstname" type="text" placeholder="{{profile.firstname}}"> </div> </div> <div id="div_id_lastname" class="form-group"> <label for="id_lastname" class="control-label  requiredField">
-                    Lastname<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_lastname" maxlength="100" name="lastname" type="text"> </div> </div> <div id="div_id_fathername" class="form-group"> <label for="id_fathername" class="control-label  requiredField">
-                    Fathername<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_fathername" maxlength="100" name="fathername" type="text"> </div> </div> <div id="div_id_email" class="form-group"> <label for="id_email" class="control-label  requiredField">
-                    Email<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_email" maxlength="100" name="email" type="text"> </div> </div> <div id="div_id_bio" class="form-group"> <label for="id_bio" class="control-label ">
-                    Bio
-                </label> <div class="controls "> <textarea class="textarea form-control" cols="40" id="id_bio" name="bio" rows="10"></textarea> </div> </div> <div id="div_id_phone" class="form-group"> <label for="id_phone" class="control-label ">
-                    Phone
-                </label> <div class="controls "> <input class="textinput textInput form-control" id="id_phone" maxlength="20" name="phone" type="text"> </div> </div> <div id="div_id_city" class="form-group"> <label for="id_city" class="control-label ">
-                    City
-                </label> <div class="controls "> <input class="textinput textInput form-control" id="id_city" maxlength="100" name="city" type="text"> </div> </div> <div id="div_id_country" class="form-group"> <label for="id_country" class="control-label ">
-                    Country
-                </label> <div class="controls "> <input class="textinput textInput form-control" id="id_country" maxlength="100" name="country" type="text"> </div> </div> <div id="div_id_organization" class="form-group"> <label for="id_organization" class="control-label ">
-                    Organization
-                </label> <div class="controls "> <input class="textinput textInput form-control" id="id_organization" maxlength="100" name="organization" type="text"> </div> </div>
-    
-                <button type="submit">Gonder</button>
-                </form>
-                
+                            </div>
+                            </div>
+                            
 
             
                                     

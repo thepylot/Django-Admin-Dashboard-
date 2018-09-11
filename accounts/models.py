@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
  
 class UserProfile(models.Model):
     user = models.OneToOneField(User)
-    avatar = models.ImageField(upload_to='itcity/media/')
+    avatar = models.ImageField()
     firstname = models.CharField(max_length=50)
     lastname = models.CharField(max_length=100)
     fathername = models.CharField(max_length=100)
