@@ -3,8 +3,10 @@ from .models import Attend
 from .forms import AttendForm
 from django.contrib import messages
 from django.core.mail import send_mail
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 
+@login_required()
 
 def icaze_detail(request, id):
     icaze = get_object_or_404(Attend, id=id)
@@ -15,6 +17,7 @@ def icaze_detail(request, id):
   
     return render(request, 'icazeler/detail.html', context)
 
+@login_required()
 def icaze_create(request):
     form = AttendForm()
     context = {
@@ -45,7 +48,7 @@ def icaze_create(request):
     }
         #show    
     return render (request, 'icazeler/form.html',context)
-
+@login_required()
 def icaze_update(request, id):
     icaze = get_object_or_404(Attend, id=id)
     form = AttendForm(request.POST or None, instance = icaze)
@@ -60,7 +63,7 @@ def icaze_update(request, id):
     return render(request, 'icazeler/icazeupdate.html', context)
     
    
-
+@login_required()
 def icaze_delete(request, id):
     icaze = get_object_or_404(Attend, id=id)
     icaze.delete()
