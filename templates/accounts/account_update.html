@@ -265,7 +265,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-12">
-                                <h4> {{profile.firstname}} {{profile.lastname}}</h4>
+                                <h4> {{profile.firstname}} {{profile.lastname}} </h4>
                                 <hr>
 
                             </div>
@@ -343,6 +343,28 @@
                     </div>
                 </div>
             </div>
+            <form method="POST">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="yC1TEu5JyI5Cp5hsZaQthJUucANVTVYA">
+                
+    
+    <div id="div_id_firstname" class="form-group"> <label for="id_firstname" class="control-label  requiredField">
+                    Firstname<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_firstname" maxlength="50" name="firstname" type="text" placeholder="{{profile.firstname}}"> </div> </div> <div id="div_id_lastname" class="form-group"> <label for="id_lastname" class="control-label  requiredField">
+                    Lastname<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_lastname" maxlength="100" name="lastname" type="text"> </div> </div> <div id="div_id_fathername" class="form-group"> <label for="id_fathername" class="control-label  requiredField">
+                    Fathername<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_fathername" maxlength="100" name="fathername" type="text"> </div> </div> <div id="div_id_email" class="form-group"> <label for="id_email" class="control-label  requiredField">
+                    Email<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_email" maxlength="100" name="email" type="text"> </div> </div> <div id="div_id_bio" class="form-group"> <label for="id_bio" class="control-label ">
+                    Bio
+                </label> <div class="controls "> <textarea class="textarea form-control" cols="40" id="id_bio" name="bio" rows="10"></textarea> </div> </div> <div id="div_id_phone" class="form-group"> <label for="id_phone" class="control-label ">
+                    Phone
+                </label> <div class="controls "> <input class="textinput textInput form-control" id="id_phone" maxlength="20" name="phone" type="text"> </div> </div> <div id="div_id_city" class="form-group"> <label for="id_city" class="control-label ">
+                    City
+                </label> <div class="controls "> <input class="textinput textInput form-control" id="id_city" maxlength="100" name="city" type="text"> </div> </div> <div id="div_id_country" class="form-group"> <label for="id_country" class="control-label ">
+                    Country
+                </label> <div class="controls "> <input class="textinput textInput form-control" id="id_country" maxlength="100" name="country" type="text"> </div> </div> <div id="div_id_organization" class="form-group"> <label for="id_organization" class="control-label ">
+                    Organization
+                </label> <div class="controls "> <input class="textinput textInput form-control" id="id_organization" maxlength="100" name="organization" type="text"> </div> </div>
+    
+                <button type="submit">Gonder</button>
+                </form>
                 
 
             

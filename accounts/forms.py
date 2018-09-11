@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
+from .models import UserProfile
 class LoginForm (forms.Form):
     username = forms.CharField(max_length=100, label = "Username")
     password = forms.CharField(max_length=100, label = 'Password', widget = forms.PasswordInput)
@@ -16,5 +17,19 @@ class LoginForm (forms.Form):
 
 
         
+class UserProfileForm(forms.ModelForm):
 
+    class Meta:
+        model = UserProfile
+        fields = [
+            'firstname',
+            'lastname',
+            'fathername',
+            'email',
+            'bio',
+            'phone',
+            'city',
+            'country',
+            'organization'
+        ]
 
