@@ -2,6 +2,10 @@ from django import forms
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
 from .models import UserProfile
+from django.conf import settings
+from django.forms import DateField
+from django.contrib.admin.widgets import AdminDateWidget,AdminTimeWidget
+from django.forms.extras.widgets import SelectDateWidget
 class LoginForm (forms.Form):
     username = forms.CharField(max_length=100, label = "Username")
     password = forms.CharField(max_length=100, label = 'Password', widget = forms.PasswordInput)
@@ -19,6 +23,8 @@ class LoginForm (forms.Form):
         
 class UserProfileForm(forms.ModelForm):
 
+    
+
     class Meta:
         model = UserProfile
         fields = [
@@ -26,10 +32,17 @@ class UserProfileForm(forms.ModelForm):
             'lastname',
             'fathername',
             'email',
-            'bio',
+            'mobile',
             'phone',
-            'city',
-            'country',
-            'organization'
+            'dob',
+            'gender',
+            'adress',
+            'organization',
+            'orgFilial',
+            'department',
+            'dayWorkStarted',
+            'rhBlood',
+            'relatedPerson',
+            'relatedPersonMobile'
         ]
 

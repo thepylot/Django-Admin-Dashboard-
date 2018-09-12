@@ -30,11 +30,11 @@ def profile_view (request):
         'form':form,
     }
     if request.method == "POST":
-        form =UserProfileForm(request.POST or None, instance=profile)
+        form =UserProfileForm(request.POST, instance=profile)
         
         if form.is_valid():
             profile = form.save()
-            return HttpResponseRedirect('http://127.0.0.1:8000/accounts/profile/')
+            return HttpResponseRedirect('http://127.0.0.1:8000')
 
 
     

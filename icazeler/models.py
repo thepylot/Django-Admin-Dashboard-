@@ -22,7 +22,7 @@ class Attend(models.Model):
     leave_start = models.DateTimeField(verbose_name = 'Baslangic Tarixi')
     leave_end = models.DateTimeField(verbose_name = 'Bitme Tarixi')
     leave_reason = models.CharField(max_length = 300, verbose_name = 'Movzu')
-    status = models.CharField(max_length = 30, choices = STATUS_CHOICES, default = "Gozleyir")
+    status = models.CharField(max_length = 30, choices = STATUS_CHOICES, default = "gozleyir")
 
     def get_absolute_url(self):
         return reverse ('detail', kwargs = {'id': self.id})

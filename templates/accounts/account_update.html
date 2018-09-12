@@ -260,81 +260,217 @@
          <div>
 
 
-                            <!-- dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
-                            <div class="container">
-                                <img src = "/{{profile.avatar.url}}" style = "width:250px;">
+<!-- dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
+<div class="container">
+        <div class="card-body">
+                <div class="card">
+                    <div class="container">
+<img src = "/{{profile.avatar.url}}" style = "width:200px;">
+</div>
 
-        
-                                    <div class="card">
-                                        <div class="card-body">
-            <form method="POST">
-                   {% csrf_token %}
+
     
-    <div id="div_id_firstname" class="form-group">
-         <label for="id_firstname" class="control-label ">Firstname<span class="asteriskField"></span> 
-                </label>
-                 <div class="controls "> 
-                     <input class="textinput textInput form-control" id="id_firstname" maxlength="50" name="firstname" type="text" value="{{profile.firstname}}">
-                     </div>
-                     </div> 
-                     <div id="div_id_lastname" class="form-group"> 
-                         <label for="id_lastname" class="control-label  requiredField">Lastname<span class="asteriskField">*</span>
-                 </label> 
-                 <div class="controls "> 
-                     <input class="textinput textInput form-control" id="id_lastname" maxlength="100" name="lastname" type="text" value="{{profile.lastname}}">
-                     </div> 
-                    </div> 
-                    <div id="div_id_fathername" class="form-group"> 
-                        <label for="id_fathername" class="control-label  requiredField">Fathername<span class="asteriskField">*</span>
-                         </label>
-                     <div class="controls ">
-                          <input class="textinput textInput form-control" id="id_fathername" maxlength="100" name="fathername" type="text" value="{{profile.fathername}}">
-                         </div>
-                         </div> 
-                         <div id="div_id_email" class="form-group"> 
-                             <label for="id_email" class="control-label  requiredField">Email</label>
+            
+                                            
+<!-- form row starts -->
+            <div class="container ">
+                <form method='POST'>
+                    {% csrf_token%}
+                    <!-- esas melumatlar row -->
+                    <div class="form-row">
+                        <h4 class="col-sm-12">Main Information</h4> 
+                   
+                        <p class="col-sm-12" style = "color:gray">You can edit your personal information</p>
+                    
+                    </div>
+                    <!-- esas melumaltr row  ends -->
+                <div id="div_id_firstname" class="form-group col-sm-4">
+                     <label for="id_firstname" class="control-label ">Firstname<span class="asteriskField">
+
+                </span>
+             </label>
+              <div class="controls ">
+                   <input class="textinput textInput form-control" id="id_firstname" maxlength="50" name="firstname" type="text" value = '{{profile.firstname}}'> </div>
+                 </div>
+                  <div id="div_id_lastname" class="form-group col-sm-4">
+                      <label for="id_lastname" class="control-label "> Lastname<span class="asteriskField"></span>
+                             </label> <div class="controls "> 
+                                 <input class="textinput textInput form-control" id="id_lastname" maxlength="100" name="lastname" type="text" value = '{{profile.lastname}}'>
+                                 </div> 
+                                </div> 
+                                <div id="div_id_fathername" class="form-group col-sm-4"> 
+                                    <label for="id_fathername" class="control-label  ">Fathername<span class="asteriskField"></span>
+                             </label>
                               <div class="controls ">
-                                   <input class="textinput textInput form-control" id="id_email" maxlength="100" name="email" type="text" value="{{profile.email}}">
-                                 </div>
-                                 </div>
-                                  <div id="div_id_bio" class="form-group">
-                                       <label for="id_bio" class="control-label ">Bio</label> 
-                               <div class="controls "> 
-                                <textarea class="textarea form-control" cols="40" id="id_bio" name="bio" rows="10" >{{profile.bio}}</textarea>
+                                   <input class="textinput textInput form-control" id="id_fathername" maxlength="100" name="fathername" type="text" value = "{{profile.fathername}}">
+                                 </div> 
+                                </div> 
+                                <!-- form row ends -->
+                                <!-- form row strst -->
+                                <div class = "form-row">
+                                <div id="div_id_email" class="form-group col-sm-4">
+                                     <label for="id_email" class="control-label ">Email<span class="asteriskField">
+
+                                </span>
+                             </label> 
+                             <div class="controls "> 
+                                 <input class="textinput textInput form-control" id="id_email" maxlength="100" name="email" type="text" value = "{{profile.email}}"> 
+                                </div> 
                             </div>
-                            </div>
-                            <div id="div_id_phone" class="form-group"> <label for="id_phone" class="control-label "> Phone</label> 
+                             <div id="div_id_mobile" class="form-group col-sm-4"> 
+                                 <label for="id_mobile" class="control-label  ">Mobile<span class="asteriskField">
+
+                                </span>
+                            </label>
+                             <div class="controls ">
+                                  <input class="textinput textInput form-control" id="id_mobile" maxlength="20" name="mobile" type="text" value='{{profile.mobile}}'>
+                                 </div> 
+                                </div>
+                                 <div id="div_id_phone" class="form-group  col-sm-4">
+                                      <label for="id_phone" class="control-label ">Phone</label> 
                             <div class="controls "> 
-                                <input class="textinput textInput form-control" id="id_phone" maxlength="20" name="phone" type="text" value="{{profile.phone}}"> 
-                            </div> 
+                                <input class="textinput textInput form-control" id="id_phone" maxlength="20" name="phone" type="text" value = '{{profile.phone}}'> 
+                            </div>
+                         </div>
                         </div>
-                        <div id="div_id_city" class="form-group">
-                            <label for="id_city" class="control-label ">City</label>
-                            <div class="controls ">
-                                <input class="textinput textInput form-control" id="id_city" maxlength="100" name="city" type="text" value="{{profile.city}}"> 
+                         <!-- form row ends -->
+                         <div class = "form-row">
+                          <div id="div_id_dob" class="form-group col-sm-4">
+                               <label for="id_dob" class="control-label  ">Dob<span class="asteriskField"></span>
+                             </label>
+                              <div class="controls "> 
+                                 <input class="dateinput form-control" id="id_dob" name="dob" type="text" value='{{profile.dob}}'> 
                                 </div> 
                             </div> 
-                            <div id="div_id_country" class="form-group">
-                                <label for="id_country" class="control-label "> Country</label>
-                            <div class="controls ">
-                                <input class="textinput textInput form-control" id="id_country" maxlength="100" name="country" type="text" value = {{profile.country}}>
+                            <div id="div_id_gender" class="form-group col-sm-4"> 
+                                    <label for="id_gender" class="control-label ">Gender<span class="asteriskField"></span> 
+                                    </label>
+                                     <div class="controls ">
+                                          <select class="select form-control" id="id_gender" name="gender" >
+                                        <option value="{{profile.gender}}" selected="selected">{{profile.gender}}</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        </select> 
+            </div> 
+            
+        </div> 
+    </div>
+        <!-- form row starts -->
+        <div id="div_id_adress" class="form-group"> 
+            <label for="id_adress" class="control-label  requiredField"> Adress<span class="asteriskField">
+
+                                </span>
+                             </label>
+                              <div class="controls "> 
+                                  <input class="textinput textInput form-control" id="id_adress" maxlength="150" name="adress" type="text" value = '{{profile.adress}}'> 
+                                </div> 
+                            </div> 
+                            <!-- company information -->
+                            <div class="form-row">
+                                    <h4 class="col-sm-12">Company Information</h4> 
+                               
+                                    <p class="col-sm-12" style = "color:gray">You can edit your organization information</p>
+                                
                                 </div>
-                                </div>
-                                <div id="div_id_organization" class="form-group"> <label for="id_organization" class="control-label ">Organization</label>
-                            <div class="controls "> 
-                                <input class="textinput textInput form-control" id="id_organization" maxlength="100" name="organization" type="text" value="{{profile.organization}}"> 
+
+
+                             <!-- company information ends -->
+                             <!-- form row started -->
+                             <div class="form-row">
+                            <div id="div_id_organization" class="form-group col-sm-4"> 
+                                <label for="id_organization" class="control-label ">Organization</label>
+                                 <div class="controls ">
+                                      <input class="textinput textInput form-control" id="id_organization" maxlength="100" name="organization" type="text" value = "{{profile.organization}}">
+                                     </div>
+                                     </div> 
+                                     <div id="div_id_orgFilial" class="form-group col-sm-4"> 
+                                         <label for="id_orgFilial" class="control-label  requiredField">OrgFilial<span class="asteriskField">
+
+                                         </span>
+                                         </label>
+                                          <div class="controls "> 
+                                              <input class="textinput textInput form-control" id="id_orgFilial" maxlength="100" name="orgFilial" type="text" value = "{{profile.orgFilial}}"> 
+                                            </div> 
+                                        </div>
+                                         <div id="div_id_department" class="form-group col-sm-4">
+                                              <label for="id_department" class="control-label  requiredField">Department<span class="asteriskField"></span>
+                             </label>
+                              <div class="controls ">
+                                   <input class="textinput textInput form-control" id="id_department" maxlength="100" name="department" type="text" value = "{{profile.department}}">
+                                 </div> 
                                 </div> 
                             </div>
-                            <div class="form-group row">
-                                    <div class="offset-4 col-8">
-                
-                            <button name="submit" type="submit" class="btn btn-primary">Update My Profile</button>
-                                    </div>
+                                <!-- form row ends -->
+                                <!-- form row starts -->
+                                <div class = "form-row ">
+                                <div id="div_id_dayWorkStarted" class="form-group col-sm-4">
+                                     <label for="id_dayWorkStarted" class="control-label  requiredField">DayWorkStarted<span class="asteriskField">
+
+                                </span>
+                             </label>
+                              <div class="controls "> 
+                                  <input class="dateinput form-control" id="id_dayWorkStarted" name="dayWorkStarted" type="text" value = '{{profile.dayWorkStarted}}'> 
                                 </div>
-                                </form>
+                             </div>
+                             <div class="col-sm-4">
+
+                             </div>
+                             <div class = "col-sm-4">
+
+                             </div>
+
+                             </div>
+                            </div>
+                             <!-- form row ends -->
+                            <!-- company information -->
+                            <div class="form-row">
+                                    <h4 class="col-sm-12">Emergency Information</h4> 
+                            
+                                    <p class="col-sm-12" style = "color:gray">Please fill emergency information</p>
+                                
+                                </div>
+
+
+                            <!-- company information ends -->
+                            <!-- form row starts here -->
+                            <div class = "form-row">
+                              <div id="div_id_rhBlood" class="form-group col-sm-4">
+                                   <label for="id_rhBlood" class="control-label  requiredField">RhBlood<span class="asteriskField"></span>
+                             </label>
+                              <div class="controls "> 
+                                  <input class="textinput textInput form-control" id="id_rhBlood" maxlength="30" name="rhBlood" type="text" value="{{profile.rhBlood}}">
+                                 </div> 
+                                </div> 
+                                <div id="div_id_relatedPerson" class="form-group col-sm-4">
+                                     <label for="id_relatedPerson" class="control-label  requiredField">RelatedPerson<span class="asteriskField"></span>
+                             </label>
+                              <div class="controls ">
+                                   <input class="textinput textInput form-control" id="id_relatedPerson" maxlength="30" name="relatedPerson" type="text" value = "{{profile.relatedPerson}}"> 
+                                </div>
+                             </div>
+                              <div id="div_id_relatedPersonMobile" class="form-group col-sm-4">
+                                   <label for="id_relatedPersonMobile" class="control-label  requiredField">RelatedPersonMobile<span class="asteriskField"></span> 
+                            </label>
+                             <div class="controls "> 
+                                 <input class="textinput textInput form-control" id="id_relatedPersonMobile" maxlength="50" name="relatedPersonMobile" type="text" value = "{{profile.relatedPersonMobile}}">
+                                 </div>
+                               
+                
+                                                       
+                                 <button name="submit" type="submit" class="btn btn-primary">Update My Profile</button>
+                                                    </form> 
+                                                      </div>
+                                 <!-- form row ends -->
+                                 
+                                
+                                </div>
+                                                    
+                                                </div>
                             </div>
                             </div>
                             </div>
+                        
+                            
                             
 
             
