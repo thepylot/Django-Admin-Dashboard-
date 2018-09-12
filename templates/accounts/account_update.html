@@ -38,12 +38,13 @@
   
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#sortable" ).sortable();
-    $( "#sortable" ).disableSelection();
-  } );
-  </script>
+  <style>
+  label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-left: 30px;
+}
+  </style>
 
 
 
@@ -261,19 +262,21 @@
 
 
 <!-- dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
-<div class="container">
+
         <div class="card-body">
-                <div class="card">
-                    <div class="container">
-<img src = "/{{profile.avatar.url}}" style = "width:200px;">
-</div>
+                <div class="card" style="border:0px;">
+                    
+                        <div class="container col-sm-12" >
+                                <img src = "/{{profile.avatar.url}}" style = "width:200px;border-radius: 50%;">
+                                </div>
+                                
 
 
     
             
                                             
 <!-- form row starts -->
-            <div class="container ">
+            <div class="container" >
                 <form method='POST'>
                     {% csrf_token%}
                     <!-- esas melumatlar row -->
@@ -285,7 +288,7 @@
                     </div>
                     <!-- esas melumaltr row  ends -->
                 <div id="div_id_firstname" class="form-group col-sm-4">
-                     <label for="id_firstname" class="control-label ">Firstname<span class="asteriskField">
+                     <label for="id_firstname" class="control-label ">Ad<span class="asteriskField">
 
                 </span>
              </label>
@@ -293,13 +296,13 @@
                    <input class="textinput textInput form-control" id="id_firstname" maxlength="50" name="firstname" type="text" value = '{{profile.firstname}}'> </div>
                  </div>
                   <div id="div_id_lastname" class="form-group col-sm-4">
-                      <label for="id_lastname" class="control-label "> Lastname<span class="asteriskField"></span>
+                      <label for="id_lastname" class="control-label "> Soyad<span class="asteriskField"></span>
                              </label> <div class="controls "> 
                                  <input class="textinput textInput form-control" id="id_lastname" maxlength="100" name="lastname" type="text" value = '{{profile.lastname}}'>
                                  </div> 
                                 </div> 
                                 <div id="div_id_fathername" class="form-group col-sm-4"> 
-                                    <label for="id_fathername" class="control-label  ">Fathername<span class="asteriskField"></span>
+                                    <label for="id_fathername" class="control-label  ">Ata ad<span class="asteriskField"></span>
                              </label>
                               <div class="controls ">
                                    <input class="textinput textInput form-control" id="id_fathername" maxlength="100" name="fathername" type="text" value = "{{profile.fathername}}">
@@ -318,7 +321,7 @@
                                 </div> 
                             </div>
                              <div id="div_id_mobile" class="form-group col-sm-4"> 
-                                 <label for="id_mobile" class="control-label  ">Mobile<span class="asteriskField">
+                                 <label for="id_mobile" class="control-label  ">Telefon<span class="asteriskField">
 
                                 </span>
                             </label>
@@ -327,7 +330,7 @@
                                  </div> 
                                 </div>
                                  <div id="div_id_phone" class="form-group  col-sm-4">
-                                      <label for="id_phone" class="control-label ">Phone</label> 
+                                      <label for="id_phone" class="control-label ">Mobil</label> 
                             <div class="controls "> 
                                 <input class="textinput textInput form-control" id="id_phone" maxlength="20" name="phone" type="text" value = '{{profile.phone}}'> 
                             </div>
@@ -336,14 +339,14 @@
                          <!-- form row ends -->
                          <div class = "form-row">
                           <div id="div_id_dob" class="form-group col-sm-4">
-                               <label for="id_dob" class="control-label  ">Dob<span class="asteriskField"></span>
+                               <label for="id_dob" class="control-label  ">Dogum Tarixi<span class="asteriskField"></span>
                              </label>
                               <div class="controls "> 
                                  <input class="dateinput form-control" id="id_dob" name="dob" type="text" value='{{profile.dob}}'> 
                                 </div> 
                             </div> 
                             <div id="div_id_gender" class="form-group col-sm-4"> 
-                                    <label for="id_gender" class="control-label ">Gender<span class="asteriskField"></span> 
+                                    <label for="id_gender" class="control-label ">Cinsi<span class="asteriskField"></span> 
                                     </label>
                                      <div class="controls ">
                                           <select class="select form-control" id="id_gender" name="gender" >
@@ -357,7 +360,7 @@
     </div>
         <!-- form row starts -->
         <div id="div_id_adress" class="form-group"> 
-            <label for="id_adress" class="control-label  requiredField"> Adress<span class="asteriskField">
+            <label for="id_adress" class="control-label  requiredField"> Unvan<span class="asteriskField">
 
                                 </span>
                              </label>
@@ -378,13 +381,13 @@
                              <!-- form row started -->
                              <div class="form-row">
                             <div id="div_id_organization" class="form-group col-sm-4"> 
-                                <label for="id_organization" class="control-label ">Organization</label>
+                                <label for="id_organization" class="control-label ">Shirket</label>
                                  <div class="controls ">
                                       <input class="textinput textInput form-control" id="id_organization" maxlength="100" name="organization" type="text" value = "{{profile.organization}}">
                                      </div>
                                      </div> 
                                      <div id="div_id_orgFilial" class="form-group col-sm-4"> 
-                                         <label for="id_orgFilial" class="control-label  requiredField">OrgFilial<span class="asteriskField">
+                                         <label for="id_orgFilial" class="control-label  requiredField">Filial<span class="asteriskField">
 
                                          </span>
                                          </label>
@@ -393,7 +396,7 @@
                                             </div> 
                                         </div>
                                          <div id="div_id_department" class="form-group col-sm-4">
-                                              <label for="id_department" class="control-label  requiredField">Department<span class="asteriskField"></span>
+                                              <label for="id_department" class="control-label  requiredField">Shobe<span class="asteriskField"></span>
                              </label>
                               <div class="controls ">
                                    <input class="textinput textInput form-control" id="id_department" maxlength="100" name="department" type="text" value = "{{profile.department}}">
@@ -404,7 +407,7 @@
                                 <!-- form row starts -->
                                 <div class = "form-row ">
                                 <div id="div_id_dayWorkStarted" class="form-group col-sm-4">
-                                     <label for="id_dayWorkStarted" class="control-label  requiredField">DayWorkStarted<span class="asteriskField">
+                                     <label for="id_dayWorkStarted" class="control-label  requiredField">Ishe qebul tarixi<span class="asteriskField">
 
                                 </span>
                              </label>
@@ -420,9 +423,10 @@
                              </div>
 
                              </div>
-                            </div>
+                            
                              <!-- form row ends -->
                             <!-- company information -->
+                           
                             <div class="form-row">
                                     <h4 class="col-sm-12">Emergency Information</h4> 
                             
@@ -435,40 +439,48 @@
                             <!-- form row starts here -->
                             <div class = "form-row">
                               <div id="div_id_rhBlood" class="form-group col-sm-4">
-                                   <label for="id_rhBlood" class="control-label  requiredField">RhBlood<span class="asteriskField"></span>
+                                   <label for="id_rhBlood" class="control-label  requiredField">Qan Qurupu<span class="asteriskField"></span>
                              </label>
                               <div class="controls "> 
                                   <input class="textinput textInput form-control" id="id_rhBlood" maxlength="30" name="rhBlood" type="text" value="{{profile.rhBlood}}">
                                  </div> 
                                 </div> 
                                 <div id="div_id_relatedPerson" class="form-group col-sm-4">
-                                     <label for="id_relatedPerson" class="control-label  requiredField">RelatedPerson<span class="asteriskField"></span>
+                                     <label for="id_relatedPerson" class="control-label  requiredField">Elaqeli Shexs<span class="asteriskField"></span>
                              </label>
                               <div class="controls ">
                                    <input class="textinput textInput form-control" id="id_relatedPerson" maxlength="30" name="relatedPerson" type="text" value = "{{profile.relatedPerson}}"> 
                                 </div>
                              </div>
                               <div id="div_id_relatedPersonMobile" class="form-group col-sm-4">
-                                   <label for="id_relatedPersonMobile" class="control-label  requiredField">RelatedPersonMobile<span class="asteriskField"></span> 
+                                   <label for="id_relatedPersonMobile" class="control-label  requiredField">Mobil<span class="asteriskField"></span> 
                             </label>
                              <div class="controls "> 
                                  <input class="textinput textInput form-control" id="id_relatedPersonMobile" maxlength="50" name="relatedPersonMobile" type="text" value = "{{profile.relatedPersonMobile}}">
                                  </div>
+                                </div>
                                
                 
-                                                       
-                                 <button name="submit" type="submit" class="btn btn-primary">Update My Profile</button>
+                                                 <div class = 'form-row'>  
+                                                     
+                                 <button name="submit" type="submit" class="btn btn-primary"  style = "background-color: #479de1;
+                                 border-color: #479de1;"">Melumatlari Deyis</button>
+                                
+                                  
+                            </div>
                                                     </form> 
                                                       </div>
                                  <!-- form row ends -->
-                                 
+                                 </div>
                                 
                                 </div>
                                                     
                                                 </div>
                             </div>
                             </div>
-                            </div>
+                        </div>
+                        {% include 'instantmsg.html'%}
+                            
                         
                             
                             
