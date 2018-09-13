@@ -1,0 +1,42 @@
+input[type="checkbox"].Switch {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: 0;
+    color: #eee;
+    width: 44px;
+    height: 24px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 100ms;
+    background-size: 30%;
+    outline: none;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #eee;
+    transition: background-color 200ms;
+    vertical-align: middle
+  }
+  input[type="checkbox"].Switch::before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    bottom: 2px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: currentColor;
+    will-change: transform;
+    transition: -webkit-transform 200ms cubic-bezier(.01,.65,.23,1);
+    transition: transform 200ms cubic-bezier(.01,.65,.23,1);
+    transition: transform 200ms cubic-bezier(.01,.65,.23,1), -webkit-transform 200ms cubic-bezier(.01,.65,.23,1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+  }
+  input[type="checkbox"].Switch:checked {
+    background-color:#4698e1;
+  }
+  input[type="checkbox"].Switch:checked::before {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }

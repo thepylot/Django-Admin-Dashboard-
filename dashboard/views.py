@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from accounts.models import UserProfile
 from django.contrib.auth.models import User
 
-# Create your views here.
+
 @login_required()
 def dash_view(request):
     if request.user.is_authenticated():
@@ -14,7 +14,7 @@ def dash_view(request):
 
 
 
-    return render(request, 'index.html', context)
+    return render(request, 'index.html')
 
 
 

@@ -15,6 +15,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="/static/css/instantmsg.css">
     <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/logout.css">
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/font-awesome.min.css">
     <link rel="stylesheet" href="/static/css/themify-icons.css">
@@ -101,11 +102,15 @@
                     <h3 class="menu-title">TEXNİKİ DƏSTƏK</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle"  aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-life-bouy"></i>Bizimlə əlaqə</a>
-                        <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-login.html">Login</a></li>
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li>
-                            <li><i class="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">Forget Pass</a></li>
-                        </ul>
+                       
+                    </li>
+                   
+                    <li  class="menu-item-has-children dropdown" style="margin-top: 100px;">
+                        <span style = "color: gray;
+                        font-size: 14px;">Hesabdan Cixis</span> <input class="Switch" type="checkbox"  onclick='window.location.assign("http://127.0.0.1:8000/accounts/logout")'>  
+                           
+
+
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->

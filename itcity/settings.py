@@ -25,7 +25,7 @@ SECRET_KEY = 'wgtizi_rj^d#z0s&lv%v8!k4zk#+iuq*-ol3*z^dzm5tnv_78%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://104.248.124.38/']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'crispy_forms',
     'Tasks',
     'accounts',
+    'dashboard',
 )
 
 MIDDLEWARE_CLASSES = (

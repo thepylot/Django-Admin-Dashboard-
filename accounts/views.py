@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import UserProfileForm, LoginForm
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render, HttpResponseRedirect
 from django.contrib.auth.models import User
 from .models import UserProfile
@@ -41,4 +41,7 @@ def profile_view (request):
     return render(request, 'accounts/account_update.html', context)
 
 
+def logout_view(request):
+    logout(request)
+    return redirect('http://127.0.0.1:8000/accounts/login/')
 
